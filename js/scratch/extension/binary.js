@@ -33,7 +33,7 @@ class binary {
   binToTxt(args) {
     var binary = args.BIN.toString();
 
-    return binary.split(" ").map((x) => x = String.fromCharCode(parseInt(x, 2))).join("");
+    return binary.split(" ").map((x) => x = String.fromCharCode(parseInt(x, 2))).join(" ")
   }
   txtToBin(args) {
     var text = args.TEXT.toString();
