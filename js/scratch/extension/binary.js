@@ -31,14 +31,14 @@ class binary {
     }
   }
   binToTxt(args) {
-    var bin = args.BIN.toString();
-    
+    var binary = args.BIN.toString();
+
     return binary.split(" ").map((x) => x = String.fromCharCode(parseInt(x, 2))).join("");
   }
   txtToBin(args) {
     var text = args.TEXT.toString();
-    
-    return Array.from(text).map((each)=>each.charCodeAt(0).toString(2)).join("")
+
+    return Array.from(text).map((each)=>each.charCodeAt(0).toString(2)).join(" ")
   }
 }
 Scratch.extensions.register(new binary());
