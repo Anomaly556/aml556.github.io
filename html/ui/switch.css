@@ -9,7 +9,40 @@
   transition: 0.5s;
 }
 
+.switch {
+  position: relative;
+}
+
+.switch_label {
+  display: flex;
+  align-items: center;
+}
+
+input[type='checkbox'] {
+  position: absolute;
+  width: 0;
+  height: 0;
+}
+
+.base {
+  width: 56px;
+  border-radius: 16px;
+  height: 32px;
+  backgrounf-color: #ddd;
+}
+
+.title {
+  margin-left: 4px;
+}
+
+
+
 input:checked ~ .base {
   background-color: rgb(219, 234, 254);
   transition: 0.5s;
+}
+
+input:checked ~ .circle {
+  transform: translateX(100%);
+  background-color: blue;
 }
