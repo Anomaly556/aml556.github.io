@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF=8"/>
+    <meta http-eqviv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="switch.css" />
+    <title>Switch Test</title>
+  </head>
+  <body>
+    <h1>Switch Button</h1>
+    <label for="switch" class="switch_label">
+      <div class="switch">
+        <input type="checkbox" id="switch" />
+        <div class="circle"></div>
+        <div class="base"></div>
+      </div>
+      <span class="title">OFF</span>
+    </label>
+  </body>
+  <script>
+    const checkbox = document.getElementById('switch');
+    checkbox.addEventListener('click', () => {
+      const title = document.querySelector('.title');
+      title.textContent = checkbox.checked ? 'ON' : 'OFF';
+    });
+  </script>
+</html>
