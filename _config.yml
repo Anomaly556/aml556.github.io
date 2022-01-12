@@ -1,3 +1,31 @@
 theme: jekyll-theme-hacker
-name: AML556 Development WebSite
+name: AML556 Development Labs
+title: AML556 Development Labs
+description: Save some created files by Developer.
+repository: https://github.com/Anomaly556/anomaly556.github.io
+timezone: Japan
 url: https://anomaly556.github.io
+
+plugins:
+- jekyll-redirect-from
+- jekyll-avatar
+- jekyll-seo-tag
+- jekyll-sitemap
+- jekyll-feed
+- jemoji
+gems:
+- jekyll-redirect-from
+- jekyll-avatar
+- jekyll-seo-tag
+- jekyll-sitemap
+- jekyll-feed
+- jemoji
+whitelist:  
+- jekyll-redirect-from
+- jekyll-avatar
+- jekyll-seo-tag
+- jekyll-sitemap
+- jekyll-feed
+- jemoji
+
+show_dir_listing: true
