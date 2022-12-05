@@ -1,4 +1,3 @@
-theme: jekyll-theme-hacker
 name: AML556 Development Labs
 title: AML556 Development Labs
 description: Save some created files by Developer.
@@ -6,26 +5,125 @@ repository: https://github.com/Anomaly556/anomaly556.github.io
 timezone: Japan
 url: https://anomaly556.github.io
 
+sass:
+  style: compressed
+  sass_dir: _sass
+
+safe: false
 plugins:
-- jekyll-redirect-from
-- jekyll-avatar
-- jekyll-seo-tag
-- jekyll-sitemap
-- jekyll-feed
-- jemoji
-gems:
-- jekyll-redirect-from
-- jekyll-avatar
-- jekyll-seo-tag
-- jekyll-sitemap
-- jekyll-feed
-- jemoji
-whitelist:  
-- jekyll-redirect-from
-- jekyll-avatar
-- jekyll-seo-tag
-- jekyll-sitemap
-- jekyll-feed
-- jemoji
+  - Liquid-md5
+  - Liquid_reading_time
+  - jekyll-analytics
+  - jekyll-archives
+  - jekyll-assets
+  - jekyll-avatar
+  - jekyll-feed
+  - jekyll-gist
+  - jekyll-github-metadata
+  - jekyll-google_search_console_verification_file
+  - jekyll-i18n_tags
+  - jekyll-imgix
+  - jekyll-language-plugin
+  - jekyll-loading-lazy
+  - jekyll-localization
+  - jekyll-manager
+  - jekyll-mentions
+  - jekyll-minibundle
+  - jekyll-minifier
+  - jekyll-pwa-workbox
+  - jekyll-redirect-from
+  - jekyll-rendering
+  - jekyll-responsive_image
+  - jekyll-sass-converter
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-webp
+  - jekyll-tagging
+  - jekyll-tagging-related_posts
+  - jekyll-target-blank
+  - jekyll-toc
+  - jekyll-youtube
+  - jekyll_image_encode
+  - jemoji
+  - searchyll
+
+jekyll-minifier:
+  exclude: 'atom.xml'
+
+assets:
+  source_maps: true
+  destination: "/assets"
+  compression: false
+  gzip: false
+  defaults:
+    integrity:
+      {css,img,js}: false
+  caching:
+    enabled: true
+    path: ".jekyll-cache/assets"
+    type: file
+  precompile: []
+
+
+source_lang: en
+
+elasticsearch:
+  url: "https://noteswiper.github.io"
+
+tag_page_layout: tag_page
+tag_page_dir: tags
+
+responsive_image:
+  template: _includes/responsive-image.html
+  sizes:
+    - width: 320
+    - width: 480
+    - width: 800
+
+webp:
+  enabled: false
+
+  quality: 75
+
+  img_dir: ["/img"]
+
+  formats: [".jpeg", ".jpg", ".png", ".tiff"]
+
+  gifs: [".gif", ".apng"]
+
+  regenerate: false
+
+imgix:
+  source: assets.imgix.net
+
+jekyll_analytics:
+  GoogleAnalytics:
+    id:
+    anonymizeIp: false
+
+
+
+jekyll-mentions:
+  base_url: https://twitter.com
+
+toc:
+  min_level: 1
+  max_level: 6
+  ordered_list: false
+  no_toc_section_class: no_toc_section
+  list_id: toc
+  list_class: section_nav
+  sublist_class: ''
+  item_class: toc-entry
+  item_prefix: toc-
+
+titles_from_headings:
+  enabled: true
+  strip_title: false
+  collections: false
+
+language_data: data.lang.%%
+language_includes_dir: _i18n
+
 
 show_dir_listing: true

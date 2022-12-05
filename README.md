@@ -1,6 +1,16 @@
-### Site Discontinued
+# We're Working for this Website BACK!!
 
-01-13-2022 - This website has Discontinued. You have to Access [this URL.](https://anomaly556.github.io/langJP/)
+## 12/05/2022
+> **Note**
+>
+> This website is not **DISCONTINUED!!**
 
-if you want to watch old readme, type `https://anomaly556.github.io/langJP/oldoriginalread`.
+i'm working for the entire website BACK!!
 
+just back until opening!
+
+---
+
+temporary Website (Japanese Only): [langJP](https://noteswiper.github.io/langJP/)
+
+if you want visit this website contents, view the [Github Repository Page](https://github.com/NoteSwiper/noteswiper.github.io).
