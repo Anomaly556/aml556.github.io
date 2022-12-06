@@ -1,7 +1,18 @@
 name: noteswiper
 title: noteswiper
 url: https://noteswiper.github.io
+sitemap: true
+author:
+  twitter: https://twitter.com/alphabetloreFAZ
+  youtube: https://www.youtube.com/@noteswiper
 
+description: something
+
+noteswiper:
+  youtube:
+    handle: @noteswiper
+  twitter:
+    id: alphabetloreFAZ
 
 sass:
   style: compressed
