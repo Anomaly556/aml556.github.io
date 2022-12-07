@@ -8,5 +8,10 @@ tag: links
 # Social Links
 
 ## Twitter
+[alphabetFAZ](https://twitter.com/alphabetFAZ)
+## Youtube
+[Note Swiper](https://www.youtube.com/@noteswiper)
 
-[]()
+[alphabetFAZ](https://www.youtube.com/@alphabetFAZ)
+## Github
+[NoteSwiper](https://github.com/NoteSwiper)
