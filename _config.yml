@@ -9,10 +9,18 @@ author:
 description: something
 
 noteswiper:
+  author: noteswiper
   youtube:
-    handle: noteswiper
+    main:
+      name: 'Note Swiper'
+      handle: noteswiper
+    sub:
+      name: 'alphabetFAZ'
+      handle: alphabetFAZ
   twitter:
     id: alphabetloreFAZ
+  github:
+    name: NoteSwiper
 
 sass:
   style: compressed
