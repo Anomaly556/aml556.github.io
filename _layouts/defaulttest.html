@@ -1,37 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <title>{{ page.name }} - {{ site.name }}</title>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,400i,700">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/firacode/6.2.0/fira_code.css'>
-    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css'>
-    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/spinkit/2.0.1/spinkit.min.css'>
-    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/emoji-awesome/0.0.2/css/emojione.min.css'>
-    <link rel="stylesheet" href="/assets/css/index.css">
-
+    {% include head.html %}
 </head>
-
 <body>
     <!-- partial:index.partial.html -->
     <div class="container">
         <header id="headdy">
-            <h1 id="webt"><a href="" style="color: white; text-decoration: none;">Note Swiper</a></h1>
+            <h1 id="webt"><a href="/" style="color: white; text-decoration: none;">Note Swiper</a></h1>
             <span style="vertical-align: baseline; margin:0; padding:0;">Random thing will place here</span>
             <nav id="menunav">
-                <a href="" id="link-normal">Navigation Link 1</a>
-                <a href="" id="link-normal">Navigation Link 2</a>
+                <a href="/" id="link-normal">Home</a>
+                <a href="/pages/links/" id="link-normal">Links</a>
             </nav>
         </header>
         <hr>
         <article id="artic">
             <div id="linking">
-                <span id="classlni"><a href="">click this text to redirect social links</a></span>
+                <span id="classlni"><a href="/pages/links/">click this text to redirect social links</a></span>
             </div>
         </article>
-
         <footer id="foot"></footer>
     </div>
     <!-- partial -->
@@ -39,5 +27,4 @@
     <script src='https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.11/clipboard.min.js'></script>
     <script src='https://cdnjs.cloudflare.com/ajax/libs/tone/14.8.49/Tone.js'></script>
 </body>
-
 </html>
