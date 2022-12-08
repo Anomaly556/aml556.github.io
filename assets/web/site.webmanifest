@@ -17,8 +17,8 @@
     "theme_color": "#9fe0b8",
     "background_color": "#9fe0b8",
     "description": "uploading or posting random posts or images, videos.",
-    "display": "browser",
-    "display_override": "window-controls-overlay",
+    "display": "standalone",
+    "display_override": "minimal-ui",
     "orientation": "landscape",
     "start_url": "https://noteswiper.github.io"
 }

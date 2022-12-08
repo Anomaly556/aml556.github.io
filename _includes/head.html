@@ -17,6 +17,18 @@
 
   gtag('config', 'G-69HT4VVSP7');
 </script>
+<script>
+    window.addEventListener('load', function () {
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.register("/assets/js/web/sw.js")
+            .then(function (registration) {
+                console.log("serviceWorker registered.");
+            }).cache(function (error) {
+                console.warn("serviceWorker error.", error);
+            });
+        }
+    });
+</script>
 <title>{{ page.name }} - {{ site.name }}</title>
 <link rel="author" href="{{ site.noteswiper.author }}">
 <link rel="canonical" href="{{ site.url }}">
