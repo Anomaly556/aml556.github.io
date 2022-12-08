@@ -1,6 +1,7 @@
 {
     "name": "NoteSwiper Website",
     "short_name": "notswiper",
+    "categories": ["entertainment","games","music","social","utilities"],
     "icons": [
         {
             "src": "/assets/web/android-chrome-192x192.png",
@@ -14,5 +15,10 @@
         }
     ],
     "theme_color": "#9fe0b8",
-    "background_color": "#9fe0b8"
+    "background_color": "#9fe0b8",
+    "description": "uploading or posting random posts or images, videos.",
+    "display": "browser",
+    "display_override": "window-controls-overlay",
+    "orientation": "landscape",
+    "start_url": "https://noteswiper.github.io"
 }

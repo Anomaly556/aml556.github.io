@@ -1,0 +1,30 @@
+{
+    "css.lint.compatibleVendorPrefixes": "warning",
+    "css.lint.duplicateProperties": "warning",
+    "css.lint.hexColorLength": "warning",
+    "css.lint.idSelector": "warning",
+    "css.lint.ieHack": "error",
+    "css.lint.important": "error",
+    "css.lint.importStatement": "warning",
+    "css.trace.server": "verbose",
+    "emmet.showSuggestionsAsSnippets": true,
+    "emmet.useInlineCompletions": true,
+    "html.format.indentInnerHtml": true,
+    "html.trace.server": "verbose",
+    "json.trace.server": "verbose",
+    "markdown.occurrencesHighlight.enabled": true,
+    "markdown.preview.breaks": false,
+    "markdown.trace.extension": "verbose",
+    "markdown.trace.server": "verbose",
+    "markdown.validate.enabled": false,
+    "material-icon-theme.folders.associations": {
+        "_includes": "Include",
+        "_layouts": "Layout",
+        "_plugins": "Plugin",
+        "workflows": "Tasks",
+        "ext": "Plugin"
+    },
+    "material-icon-theme.files.associations": {
+        "*.yml": "Yaml"
+    }
+}

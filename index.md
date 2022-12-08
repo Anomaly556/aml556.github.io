@@ -6,16 +6,11 @@ tag: yes
 ---
 
 
-# We're Working for this Website BACK!!
+# We're working for this website development
 
-## 12/05/2022
-> **Note**
->
-> This website is not **DISCONTINUED!!**
+### this website are under construction!
 
-i'm working for the entire website BACK!!
-
-just back until opening!
+this document will shown until opening!
 
 ---
 
