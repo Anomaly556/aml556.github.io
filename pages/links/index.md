@@ -1,5 +1,4 @@
 ---
-layout: defaulttest
 title: Links
 name: Links
 tag: links

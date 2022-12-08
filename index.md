@@ -1,5 +1,4 @@
 ---
-layout: defaulttest
 title: index
 name: index
 tag: yes
