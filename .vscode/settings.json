@@ -26,5 +26,6 @@
     },
     "material-icon-theme.files.associations": {
         "*.yml": "Yaml"
-    }
+    },
+    "editor.folding": false
 }
