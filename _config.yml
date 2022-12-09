@@ -6,6 +6,10 @@ author:
   twitter: https://twitter.com/alphabetloreFAZ
   youtube: https://www.youtube.com/@noteswiper
 
+source: .
+destination: ./_site
+collections_dir: .
+
 description: something
 
 noteswiper:
@@ -135,3 +139,5 @@ titles_from_headings:
 language_data: data.lang.%%
 language_includes_dir: _i18n
 show_dir_listing: true
+plugins_dir: _plugins
+data_dir: _data
