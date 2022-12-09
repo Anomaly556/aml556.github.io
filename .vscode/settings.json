@@ -29,6 +29,21 @@
     },
     "editor.folding": false,
     "yaml.schemas": {
-        "http://json.schemastore.org/jekyll": "/*"
-    }
+        "https://json.schemastore.org/jekyll": "/*"
+    },
+    "editor.cursorSmoothCaretAnimation": true,
+    "editor.cursorBlinking": "smooth",
+    "diffEditor.codeLens": true,
+    "diffEditor.diffAlgorithm": "experimental",
+    "editor.suggest.shareSuggestSelections": true,
+    "editor.suggest.preview": true,
+    "editor.suggest.showStatusBar": true,
+    "files.autoGuessEncoding": true,
+    "explorer.fileNesting.enabled": true,
+    "explorer.compactFolders": false,
+    "explorer.incrementalNaming": "smart",
+    "problems.showCurrentInStatus": true,
+    "javascript.referencesCodeLens.enabled": true,
+    "yaml.suggest.parentSkeletonSelectedFirst": true,
+    "yaml.trace.server": "verbose"
 }
