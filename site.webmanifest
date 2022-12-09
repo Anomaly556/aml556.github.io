@@ -1,18 +1,25 @@
 {
     "name": "NoteSwiper Website",
     "short_name": "notswiper",
-    "categories": ["entertainment","games","music","social","utilities"],
+    "categories": [
+      "entertainment",
+      "games",
+      "music",
+      "photo",
+      "social",
+      "utilities"
+    ],
     "icons": [
-        {
-            "src": "/assets/web/android-chrome-192x192.png",
-            "sizes": "192x192",
-            "type": "image/png"
-        },
-        {
-            "src": "/assets/web/android-chrome-512x512.png",
-            "sizes": "512x512",
-            "type": "image/png"
-        }
+      {
+        "src": "/assets/web/android-chrome-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "/assets/web/android-chrome-512x512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
     ],
     "id": "?adp=1",
     "theme_color": "#9fe0b8",
@@ -20,5 +27,15 @@
     "description": "uploading or posting random posts or images, videos.",
     "display": "standalone",
     "orientation": "landscape",
-    "start_url": "https://noteswiper.github.io"
-}
+    "start_url": "https://noteswiper.github.io",
+    "dir": "auto",
+    "scope": "https://noteswiper.github.io",
+    "lang": "en",
+    "display_override": [
+      "browser",
+      "window-controls-overlay",
+      "standalone",
+      "minimal-ui",
+      "fullscreen"
+    ]
+  }
