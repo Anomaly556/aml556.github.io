@@ -1,4 +1,4 @@
-const CACHE_NAME = 'cached-websiteData';
+/* const CACHE_NAME = 'cached-websiteData';
 
 const PRECACHE_ASSETS = [
   '/assets/'
@@ -32,4 +32,4 @@ self.addEventListener('fetch', event => {
           return fetch(event.request)
       };
   });
-});
+}); */
