@@ -1,16 +1,7 @@
 const CACHE_NAME = 'cached-websiteData';
 
 const PRECACHE_ASSETS = [
-  '/assets/',
-  '/_includes/',
-  '/_layouts',
-  '/html/',
-  '/pages/',
-  '/tags/',
-  '/_site/',
-  '/_sass/',
-  '/_plugins/',
-  '/_i18n/'
+  '/assets/'
 ]
 
 // Listener for the install event - precaches our assets list on service worker install.
