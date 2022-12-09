@@ -27,5 +27,8 @@
     "material-icon-theme.files.associations": {
         "*.yml": "Yaml"
     },
-    "editor.folding": false
+    "editor.folding": false,
+    "yaml.schemas": {
+        "http://json.schemastore.org/jekyll": "/*"
+    }
 }
