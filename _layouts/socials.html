@@ -18,51 +18,51 @@ layout: default
             <p>{{ social.meta.note }}</p><br>
         {% endif %}
         {% if social.youtube %}
-            <span>Youtube: <a href="{{ social.youtube }}">{{ socials.title }}</a></span><br>
+        <span>Youtube: <a href="{{ social.youtube }}">{{ social.title }}</a></span><br>
         {% endif %}
         {% if social.website %}
         <span>Website: <a href="{{ social.website }}">{{ social.website }}</a></span><br>
         {% endif %}
         {% if social.twitter %}
-        <span>Youtube: <a href="{{ social.twitter }}">{{ social.twitter }}</a></span><br>
+        <span>Twitter: <a href="{{ social.twitter }}">{{ social.twitter }}</a></span><br>
         {% endif %}
         {% if social.github %}
-        <span>Youtube: <a href="{{ social.github }}">{{ social.github }}</a></span><br>
+        <span>Github: <a href="{{ social.github }}">{{ social.github }}</a></span><br>
         {% endif %}
         {% if social.roblox %}
-        <span>Youtube: <a href="{{ social.roblox.main }}">{{ social.roblox.main }}</a></span><br>
+        <span>Roblox Main Account: <a href="{{ social.roblox.main }}">{{ social.roblox.main }}</a></span><br>
             {% if social.roblox.sub %}
-            <span>Youtube: <a href="{{ social.roblox.sub }}">{{ social.roblox.sub }}</a></span><br>
+            <span>Roblox sub Account: <a href="{{ social.roblox.sub }}">{{ social.roblox.sub }}</a></span><br>
             {% endif %}
         {% endif %}
         {% if social.twitch %}
-        <span>Youtube: <a href="{{ social.twitch }}">{{ social.twitch }}</a></span><br>
+        <span>Twitch: <a href="{{ social.twitch }}">{{ social.twitch }}</a></span><br>
         {% endif %}
         {% if social.blog %}
             {% for blogurl in social.blog %}
-            <span>Youtube: <a href="{{ blogurl.url }}">{{ blogurl.title }}</a></span><br>
+            <span>Blog: <a href="{{ blogurl.url }}">{{ blogurl.title }}</a></span><br>
             {% endfor %}
         {% endif %}
         {% if social.orgs %}
             {% if social.orgs.created %}
                 {% for creation in social.orgs.created %}
-                <span>Youtube: <a href="{{ creation.github }}">{{ creation.title }}</a></span><br>
+                <span>Org Title: <a href="{{ creation.github }}">{{ creation.title }}</a></span><br>
                     {% if creation.website %}
-                    <span>Youtube: <a href="{{ creation.website }}">{{ creation.website }}</a></span><br>
+                    <span>Link: <a href="{{ creation.website }}">{{ creation.website }}</a></span><br>
                     {% endif %}
                 {% endfor %}
             {% endif %}
             {% if social.orgs.joining %}
                 {% for joining in social.orgs.joining %}
-                <span>Youtube: <a href="{{ joining.github }}">{{ joining.title }}</a></span><br>
+                <span>Join Org Title: <a href="{{ joining.github }}">{{ joining.title }}</a></span><br>
                     {% if creation.website %}
-                    <span>Youtube: <a href="{{ joining.website }}">{{ joining.website }}</a></span><br>
+                    <span>Url: <a href="{{ joining.website }}">{{ joining.website }}</a></span><br>
                     {% endif %}
                 {% endfor %}
             {% endif %}
         {% endif %}
         {% if social.deviantart %}
-        <span>Youtube: <a href="{{ social.deviantart }}">{{ social.deviantart }}</a></span><br>
+        <span>Deviantart: <a href="{{ social.deviantart }}">{{ social.deviantart }}</a></span><br>
         {% endif %}
     </div>
 {% endfor %}
