@@ -15,8 +15,9 @@
           <h1 id="webt"><a href="/" style="color: white; text-decoration: none;">Note Swiper</a></h1>
           <span style="vertical-align: baseline; margin:0; padding:0;">Random thing will place here</span>
           <nav id="menunav">
-            <a href="/" id="link-normal">Home</a>
-            <a href="/pages/links/" id="link-normal">Links</a>
+            {% for links in site.data.main.website.menus %}
+              <a href="{{ links.to }}" id="link-normal">{{ links.title }}</a>
+            {% endfor %}
           </nav>
         </header>
         <hr>

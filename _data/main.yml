@@ -1,0 +1,137 @@
+website:
+  name: "NoteSwiper"
+  title: "NoteSwiper"
+  title_seperator: "-"
+  url:
+    full: "https://noteswiper.github.io"
+    host: "noteswiper.github.io"
+  menus:
+      - title: "Home"
+        to: "/"
+      - title: "Post"
+        to: "/posts/"
+      - title: "Information"
+        to: "/info"
+      - title: "About"
+        to: "/about"
+  socials:
+    def:
+      title: "Default"
+      youtube: "def"
+      website: "https://example.com"
+      twitter: "def"
+      github: "def"
+      orgs:
+        created:
+          one:
+            title: "def-org"
+            website: "https://def-org.github.io"
+            github: "def-org"
+            twitter: "deforg"
+            youtube: "deforg"
+    NoteSwiper:
+      title: "NoteSwiper"
+      youtube: "noteswiper"
+      website: "https://noteswiper.github.io"
+      twitter: "NotSwFAZ"
+      github: "NoteSwiper"
+      roblox:
+        main: "youK197_YT"
+        sub: "NotKnownUser"
+      twitch: "aml556"
+      blog:
+        one: "https://aml556plugged.blogstation.jp"
+        two: "https://plgr.hateblo.jp"
+    script1000:
+      title: "script1000"
+      website: "https://script1000.github.io"
+      github: "script1000"
+      youtube: "script-pg5xz"
+      orgs:
+        created:
+          one:
+            title: "test-temporaryOrganizations"
+            github: "test-temporaryOrganizations"
+        joining:
+          one:
+            title: "trslim"
+            website: "trslim"
+            github: "trslim"
+    TermSlime:
+      title: "TermSlime"
+      youtube: "termSlimeMC_YT"
+      website: "https://termslime.github.io"
+      github: "termSlime"
+      orgs:
+        created:
+          one:
+            title: "trSlim"
+            website: "https://trslim.github.io"
+    Micro:
+      title: "0micro"
+      website: "https://0micro.github.io"
+      github: "0micro"
+    EnchantedSii:
+      title: "EnchantedSii"
+      youtube: "user-wi6lo8xu7p"
+      github: "EnchantedSii"
+    RblxLuauDevCode:
+      title: "RblxLuauDevCode"
+      youtube: "rblxluaudevcode5750"
+      github: "RblxLuauDevCode"
+      website: "https://rblxluaudevcode.github.io"
+    ppgHuman:
+      title: "ppgHuman"
+      youtube: "ppgHuman"
+      github: "ppgHuman"
+  socials_nonGithub:
+    easy311:
+      title: "easy311 / modifiedSquid"
+      youtube: "easy311"
+    someonesArt:
+      title: "someone's thing"
+      youtube: "someonesArt"
+    scp132jp:
+      title: "SCP-132-JP 紙魚入る"
+      youtube: "scp132jp"
+      meta:
+        categories: ["fiction","scp","scp-jp","japanese"]
+        note: "name of channel is from SCP JP Wiki. i'm not a creator and we don't claims their creations. creation by locker"
+    term2Slime:
+      title: "term2Slime"
+      youtube: "termSlime2"
+    TheNoobyGaming:
+      title: "TheNoobyGaming"
+      youtube: "thenoobyrblx"
+    eeaaaf: 
+      title: "F The Alphabet Lore Villain Letter"
+      youtube: "eeaaaf"
+    ragdoll_extend:
+      title: "ragdoll_extend"
+      youtube: "ragdoll_extend"
+    TheCorruptedCube:
+      title: "TheCorruptedCube"
+      youtube: "thecorruptedcube8226"
+    intelNoobCPU:
+      title: "intel NoobCPU"
+      youtube: "intelnoobcpu9792"
+    Partyenjoyer:
+      title: "Partyenjoyer"
+      youtube: "partyenjoyer1358"
+    subnooby:
+      title: "TheNoobySub / polgenSYTサブ"
+      youtube: "subnooby"
+  socials_nsfw:
+    rblxinfvid:
+      title: "Roblox Inflation videos"
+      youtube: "robloxinflationvideos3210"
+    inflatem:
+      title: "inf latem"
+      youtube: "inflatem"
+      deviantart: "inflatem"
+  messages:
+    nsfw_content_warning: "This content contains NSFW Content. do you continue?"
+    nsfw_user_warning: "This socials contains NSFW content. do you visit?"
+    socials_link_normal: "Socials - "
+    socials_link_nongit: "Non Github Socials - "
+    socials_link_nsfw: "NSFW Socials - "

@@ -29,9 +29,9 @@
     },
     "editor.folding": false,
     "yaml.schemas": {
-        "https://json.schemastore.org/jekyll": "/*"
+        "https://json.schemastore.org/jekyll": "/_config.yml"
     },
-    "editor.cursorSmoothCaretAnimation": true,
+    "editor.cursorSmoothCaretAnimation": "on",
     "editor.cursorBlinking": "smooth",
     "diffEditor.codeLens": true,
     "diffEditor.diffAlgorithm": "experimental",

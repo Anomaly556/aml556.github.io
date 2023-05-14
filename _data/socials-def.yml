@@ -1,0 +1,14 @@
+- def:
+      title: "Default"
+      youtube: "def"
+      website: "https://example.com"
+      twitter: "def"
+      github: "def"
+      orgs:
+        created:
+          one:
+            title: "def-org"
+            website: "https://def-org.github.io"
+            github: "def-org"
+            twitter: "deforg"
+            youtube: "deforg"

@@ -1,0 +1,117 @@
+- title: "NoteSwiper"
+  type: 0
+  youtube: "noteswiper"
+  website: "https://noteswiper.github.io"
+  twitter: "NotSwFAZ"
+  github: "NoteSwiper"
+  roblox:
+    main: "youK197_YT"
+    sub: "NotKnownUser"
+  twitch: "aml556"
+  blog:
+    - title: "AML556 Plugged"
+      url: "https://aml556plugged.blogstation.jp"
+    - title: "plgr"
+      url: "https://plgr.hateblo.jp"
+
+- title: "script1000"
+  type: 0
+  website: "https://script1000.github.io"
+  github: "script1000"
+  youtube: "script-pg5xz"
+  orgs:
+    created:
+      - title: "test-temporaryOrganizations"
+        github: "test-temporaryOrganizations"
+    joining:
+      - title: "trslim"
+        website: "https://trslim.github.io"
+        github: "trslim"
+
+- title: "TermSlime"
+  type: 0
+  youtube: "termSlimeMC_YT"
+  website: "https://termslime.github.io"
+  github: "termSlime"
+  orgs:
+    created:
+      one:
+        title: "trSlim"
+        website: "https://trslim.github.io"
+
+- title: "0micro"
+  type: 0
+  website: "https://0micro.github.io"
+  github: "0micro"
+
+- title: "EnchantedSii"
+  type: 0
+  youtube: "user-wi6lo8xu7p"
+  github: "EnchantedSii"
+
+- title: "RblxLuauDevCode"
+  type: 0
+  youtube: "rblxluaudevcode5750"
+  github: "RblxLuauDevCode"
+  website: "https://rblxluaudevcode.github.io"
+
+- title: "ppgHuman"
+  type: 0
+  youtube: "ppgHuman"
+  github: "ppgHuman"
+
+- title: "easy311 / modifiedSquid"
+  type: 1
+  youtube: "easy311"
+
+- title: "someone's thing"
+  type: 1
+  youtube: "someonesArt"
+
+- title: "SCP-132-JP 紙魚入る"
+  type: 1
+  youtube: "scp132jp"
+  meta:
+    categories: ["fiction","scp","scp-jp","japanese"]
+    note: "name of channel is from SCP JP Wiki. i'm not a creator and we don't claims their creations. creation by locker"
+
+- title: "term2Slime"
+  type: 1
+  youtube: "termSlime2"
+
+- title: "TheNoobyGaming"
+  type: 2
+  youtube: "thenoobyrblx"
+
+- title: "F The Alphabet Lore Villain Letter"
+  type: 1
+  youtube: "eeaaaf"
+
+- title: "ragdoll_extend"
+  type: 1
+  youtube: "ragdoll_extend"
+
+- title: "TheCorruptedCube"
+  type: 1
+  youtube: "thecorruptedcube8226"
+
+- title: "intel NoobCPU"
+  type: 1
+  youtube: "intelnoobcpu9792"
+
+- title: "Partyenjoyer"
+  type: 1
+  youtube: "partyenjoyer1358"
+
+- title: "TheNoobySub / polgenSYTサブ"
+  type: 1
+  youtube: "subnooby"
+
+- title: "Roblox Inflation videos"
+  type: 3
+  youtube: "robloxinflationvideos3210"
+
+- title: "inf latem"
+  type: 3
+  youtube: "inflatem"
+  deviantart: "inflatem"
