@@ -3,19 +3,19 @@ layout: default
 ---
 
 {% for social in site.data.socials %}
-<details class="">
+<div class="">
     {% case social.type %}
     {% when 0 %}
-    <summary>Socials: Information of {{ social.title }}</summary>
+    <h2>Socials: Information of {{ social.title }}</h2>
     {% when 1 %}
-    <summary>non-Github Socials: Information of {{ social.title }}</summary>
+    <h2>non-Github Socials: Information of {{ social.title }}</h2>
     {% when 2 %}
-        <summary>forgotten-githubUrl Socials: Information of {{ social.title }}</summary>
+        <h2>forgotten-githubUrl Socials: Information of {{ social.title }}</h2>
     {% when 3 %}
-        <summary>NSFW Socials: Information of {{ social.title }}</summary>
+        <h2>NSFW Socials: Information of {{ social.title }}</h2>
     {% endcase %}
     {% if social.meta %}
-    <p></p>
+    <p>{{ social.meta.note }}</p>
     {% endif %}
     {% if social.youtube %}
     <a href="{{ social.youtube }}" class="">{{ socials.title }}</a>
