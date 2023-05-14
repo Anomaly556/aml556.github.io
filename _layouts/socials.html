@@ -3,66 +3,66 @@ layout: default
 ---
 
 {% for social in site.data.socials %}
-<div class="">
-    {% case social.type %}
-    {% when 0 %}
-    <h2>Socials: Information of {{ social.title }}</h2>
-    {% when 1 %}
-    <h2>non-Github Socials: Information of {{ social.title }}</h2>
-    {% when 2 %}
-        <h2>forgotten-githubUrl Socials: Information of {{ social.title }}</h2>
-    {% when 3 %}
-        <h2>NSFW Socials: Information of {{ social.title }}</h2>
-    {% endcase %}
-    {% if social.meta %}
-    <p>{{ social.meta.note }}</p>
-    {% endif %}
-    {% if social.youtube %}
-    <a href="{{ social.youtube }}" class="">{{ socials.title }}</a>
-    {% endif %}
-    {% if social.website %}
-    <a href="{{ social.website }}">{{ social.website }}</a>
-    {% endif %}
-    {% if social.twitter %}
-    <a href="{{ social.twitter }}">{{ social.twitter }}</a>
-    {% endif %}
-    {% if social.github %}
-    <a href="{{ social.github }}">{{ social.github }}</a>
-    {% endif %}
-    {% if social.roblox %}
-    <a href="{{ social.roblox.main }}">{{ social.roblox.main }}</a>
-    {% if social.roblox.sub %}
-    <a href="{{ social.roblox.sub }}">{{ social.roblox.sub }}</a>
-    {% endif %}
-    {% endif %}
-    {% if social.twitch %}
-    <a href="{{ social.twitch }}">{{ social.twitch }}</a>
-    {% endif %}
-    {% if social.blog %}
-    {% for blogurl in social.blog %}
-    <a href="{{ blogurl.url }}">{{ blogurl.title }}</a>
-    {% endfor %}
-    {% endif %}
-    {% if social.orgs %}
-    {% if social.orgs.created %}
-    {% for creation in social.orgs.created %}
-    <a href="{{ creation.github }}">{{ creation.title }}</a>
-    {% if creation.website %}
-    <a href="{{ creation.website }}">{{ creation.website }}</a>
-    {% endif %}
-    {% endfor %}
-    {% endif %}
-    {% if social.orgs.joining %}
-    {% for joining in social.orgs.joining %}
-    <a href="{{ joining.github }}">{{ joining.title }}</a>
-    {% if creation.website %}
-    <a href="{{ joining.website }}">{{ joining.website }}</a>
-    {% endif %}
-    {% endfor %}
-    {% endif %}
-    {% endif %}
-    {% if social.deviantart %}
-    <a href="{{ social.deviantart }}">{{ social.deviantart }}</a>
-    {% endif %}
-</div>
+    <div class="">
+        {% case social.type %}
+            {% when 0 %}
+                <h2>Socials: Information of {{ social.title }}</h2>
+            {% when 1 %}
+                <h2>non-Github Socials: Information of {{ social.title }}</h2>
+            {% when 2 %}
+                <h2>forgotten-githubUrl Socials: Information of {{ social.title }}</h2>
+            {% when 3 %}
+                <h2>NSFW Socials: Information of {{ social.title }}</h2>
+        {% endcase %}
+        {% if social.meta %}
+            <p>{{ social.meta.note }}</p><br>
+        {% endif %}
+        {% if social.youtube %}
+            <span>Youtube: <a href="{{ social.youtube }}" class="">{{ socials.title }}</a></span><br>
+        {% endif %}
+        {% if social.website %}
+        <span>Website: <a href="{{ social.website }}">{{ social.website }}</a></span><br>
+        {% endif %}
+        {% if social.twitter %}
+        <span>Youtube: <a href="{{ social.twitter }}">{{ social.twitter }}</a></span><br>
+        {% endif %}
+        {% if social.github %}
+        <span>Youtube: <a href="{{ social.github }}">{{ social.github }}</a></span><br>
+        {% endif %}
+        {% if social.roblox %}
+        <span>Youtube: <a href="{{ social.roblox.main }}">{{ social.roblox.main }}</a></span><br>
+            {% if social.roblox.sub %}
+            <span>Youtube: <a href="{{ social.roblox.sub }}">{{ social.roblox.sub }}</a></span><br>
+            {% endif %}
+        {% endif %}
+        {% if social.twitch %}
+        <span>Youtube: <a href="{{ social.twitch }}">{{ social.twitch }}</a></span><br>
+        {% endif %}
+        {% if social.blog %}
+            {% for blogurl in social.blog %}
+            <span>Youtube: <a href="{{ blogurl.url }}">{{ blogurl.title }}</a></span><br>
+            {% endfor %}
+        {% endif %}
+        {% if social.orgs %}
+            {% if social.orgs.created %}
+                {% for creation in social.orgs.created %}
+                <span>Youtube: <a href="{{ creation.github }}">{{ creation.title }}</a></span><br>
+                    {% if creation.website %}
+                    <span>Youtube: <a href="{{ creation.website }}">{{ creation.website }}</a></span><br>
+                    {% endif %}
+                {% endfor %}
+            {% endif %}
+            {% if social.orgs.joining %}
+                {% for joining in social.orgs.joining %}
+                <span>Youtube: <a href="{{ joining.github }}">{{ joining.title }}</a></span><br>
+                    {% if creation.website %}
+                    <span>Youtube: <a href="{{ joining.website }}">{{ joining.website }}</a></span><br>
+                    {% endif %}
+                {% endfor %}
+            {% endif %}
+        {% endif %}
+        {% if social.deviantart %}
+        <span>Youtube: <a href="{{ social.deviantart }}">{{ social.deviantart }}</a></span><br>
+        {% endif %}
+    </div>
 {% endfor %}
