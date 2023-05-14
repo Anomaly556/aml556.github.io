@@ -6,11 +6,11 @@ author:
   twitter: https://twitter.com/alphabetloreFAZ
   youtube: https://www.youtube.com/@noteswiper
 
-youtube_handle: "https://www.youtube.com/@"
-twitteruser: "https://twitter.com/"
-githubuser: "https://github.com/"
-twitchuser: "https://twitch.tv/"
-deviantartuser: "https://deviantart.com/"
+youtube_handle: "https://www.youtube.com/"
+twitteruser: "https://twitter.com"
+githubuser: "https://github.com"
+twitchuser: "https://twitch.tv"
+deviantartuser: "https://deviantart.com"
 
 shortBlox:
   devforum: "devforum.link/"

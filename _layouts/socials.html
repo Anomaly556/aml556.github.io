@@ -3,28 +3,40 @@ layout: default
 ---
 
 {% for social in site.data.socials %}
-<div class="">
-    <h2>Socials: Information of {{ social.title }}</h2>
+<details class="">
+    {% case social.type %}
+    {% when 0 %}
+    <summary>Socials: Information of {{ social.title }}</summary>
+    {% when 1 %}
+    <summary>non-Github Socials: Information of {{ social.title }}</summary>
+    {% when 2 %}
+        <summary>forgotten-githubUrl Socials: Information of {{ social.title }}</summary>
+    {% when 3 %}
+        <summary>NSFW Socials: Information of {{ social.title }}</summary>
+    {% endcase %}
+    {% if social.meta %}
+    <p></p>
+    {% endif %}
     {% if social.youtube %}
-    <a href="{{ site.youtube_handle social.youtube }}" class="">{{ socials.title }}</a>
+    <a href="{{ social.youtube }}" class="">{{ socials.title }}</a>
     {% endif %}
     {% if social.website %}
     <a href="{{ social.website }}">{{ social.website }}</a>
     {% endif %}
     {% if social.twitter %}
-    <a href="{{ site.twitteruser social.twitter }}">{{ social.twitter }}</a>
+    <a href="{{ social.twitter }}">{{ social.twitter }}</a>
     {% endif %}
     {% if social.github %}
-    <a href="{{ site.githubuser social.github }}">{{ social.github }}</a>
+    <a href="{{ social.github }}">{{ social.github }}</a>
     {% endif %}
     {% if social.roblox %}
-    <a href="{{ site.shortBlox.user.usrName social.roblox.main }}">{{ social.roblox.main }}</a>
+    <a href="{{ social.roblox.main }}">{{ social.roblox.main }}</a>
     {% if social.roblox.sub %}
-    <a href="{{ site.shortBlox.user.usrName social.roblox.sub }}">{{ social.roblox.sub }}</a>
+    <a href="{{ social.roblox.sub }}">{{ social.roblox.sub }}</a>
     {% endif %}
     {% endif %}
     {% if social.twitch %}
-    <a href="{{ site.twitchuser social.twitch }}">{{ social.twitch }}</a>
+    <a href="{{ social.twitch }}">{{ social.twitch }}</a>
     {% endif %}
     {% if social.blog %}
     {% for blogurl in social.blog %}
@@ -34,7 +46,7 @@ layout: default
     {% if social.orgs %}
     {% if social.orgs.created %}
     {% for creation in social.orgs.created %}
-    <a href="{{ site.githubuser creation.github }}">{{ creation.title }}</a>
+    <a href="{{ creation.github }}">{{ creation.title }}</a>
     {% if creation.website %}
     <a href="{{ creation.website }}">{{ creation.website }}</a>
     {% endif %}
@@ -42,7 +54,7 @@ layout: default
     {% endif %}
     {% if social.orgs.joining %}
     {% for joining in social.orgs.joining %}
-    <a href="{{ site.githubuser joining.github }}">{{ joining.title }}</a>
+    <a href="{{ joining.github }}">{{ joining.title }}</a>
     {% if creation.website %}
     <a href="{{ joining.website }}">{{ joining.website }}</a>
     {% endif %}
@@ -50,7 +62,7 @@ layout: default
     {% endif %}
     {% endif %}
     {% if social.deviantart %}
-    <a href="{{ site.deviantartuser social.deviantart }}">{{ social.deviantart }}</a>
+    <a href="{{ social.deviantart }}">{{ social.deviantart }}</a>
     {% endif %}
 </div>
 {% endfor %}
