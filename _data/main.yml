@@ -14,6 +14,8 @@ website:
         to: "/info"
       - title: "About"
         to: "/about"
+      - title: "Socials"
+        to: "/socials"
   socials:
     def:
       title: "Default"
