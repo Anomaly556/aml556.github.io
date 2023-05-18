@@ -1,3 +1,7 @@
+# Jekyll YAML Configuration
+# https://jekyllrb.com
+#
+# This configuration can readable using Liquid.
 name: noteswiper
 title: noteswiper
 url: https://noteswiper.github.io
@@ -94,6 +98,7 @@ typescript:
 
 jekyll-minifier:
   exclude: 'atom.xml'
+
 assets:
   source_maps: true
   destination: "/assets"
@@ -107,37 +112,41 @@ assets:
     path: ".jekyll-cache/assets"
     type: file
   precompile: []
+
 source_lang: en
+
 elasticsearch:
   url: "https://noteswiper.github.io"
+
 tag_page_layout: tag_page
 tag_page_dir: tags
+
 responsive_image:
   template: _includes/responsive-image.html
   sizes:
     - width: 320
     - width: 480
     - width: 800
+
 webp:
   enabled: false
-
   quality: 75
-
   img_dir: ["/img"]
-
   formats: [".jpeg", ".jpg", ".png", ".tiff"]
-
   gifs: [".gif", ".apng"]
-
   regenerate: false
+
 imgix:
   source: assets.imgix.net
+
 jekyll_analytics:
   GoogleAnalytics:
     id:
     anonymizeIp: false
+
 jekyll-mentions:
   base_url: https://twitter.com
+
 toc:
   min_level: 1
   max_level: 6
@@ -148,10 +157,31 @@ toc:
   sublist_class: ''
   item_class: toc-entry
   item_prefix: toc-
+
 titles_from_headings:
   enabled: true
   strip_title: false
   collections: false
+
+permalink: /:categories/:year/:month/:day/:title:output_ext
+
+pagination:
+  enabled: true
+  per_page: 16
+  sort_reverse: true
+  limit: 0
+  sort_field: 'date'
+  permalink: '/page/:num/'
+  title: ':title'
+  trail:
+    before: 3
+    after: 3
+
+languages: ['ja','en']
+default_lang: 'en'
+exclude_from_localization: ['javascript','images','css']
+parallel_localization: false
+
 language_data: data.lang.%%
 language_includes_dir: _i18n
 show_dir_listing: true
