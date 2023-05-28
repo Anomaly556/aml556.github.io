@@ -18,16 +18,24 @@ layout: default
             <p>{{ social.meta.note }}</p><br>
         {% endif %}
         {% if social.youtube %}
-        <span>Youtube: <a href="{{ social.youtube }}">{{ social.title }}</a></span><br>
+            {%- for item in social.youtube -%}
+                <span>Youtube: <a href="{{ social.youtube }}">{{ social.title }}</a></span><br>
+            {%- endfor -%}
         {% endif %}
         {% if social.website %}
-        <span>Website: <a href="{{ social.website }}">{{ social.website }}</a></span><br>
+            {%- for item in social.website -%}
+                <span>Website: <a href="{{ social.website }}">{{ social.website }}</a></span><br>
+            {%- endfor -%}
         {% endif %}
         {% if social.twitter %}
-        <span>Twitter: <a href="{{ social.twitter }}">{{ social.twitter }}</a></span><br>
+            {%- for item in social.twitter -%}
+                <span>Twitter: <a href="{{ social.twitter }}">{{ social.twitter }}</a></span><br>
+            {%- endfor -%}
         {% endif %}
         {% if social.github %}
+            {%- for item in social.github -%}
         <span>Github: <a href="{{ social.github }}">{{ social.github }}</a></span><br>
+        {% endfor %}
         {% endif %}
         {% if social.roblox %}
         <span>Roblox Main Account: <a href="{{ social.roblox.main }}">{{ social.roblox.main }}</a></span><br>

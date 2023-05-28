@@ -1,13 +1,31 @@
 - title: "NoteSwiper"
   type: 0
-  youtube: "https://www.youtube.com/@noteswiper"
-  website: "https://noteswiper.github.io"
-  twitter: "https://twitter.com/NotSwFAZ"
-  github: "https://github.com/NoteSwiper"
+  youtube: 
+    - title: "_*NoteSwiper*_"
+      url: "https://www.youtube.com/@noteswiper"
+    - title: "someone's Thing"
+      url: "https://www.youtube.com/@someonesArt"
+  website:
+    - title: "Home Page"
+      url: "https://noteswiper.github.io"
+  twitter: 
+    - title: "alphabetFAZ"
+      url: "https://twitter.com/AlphabetLoreFAY"
+    - title: "alone_Forever"
+      url: "https://twitter.com/AlphabetLoreFAZ"
+    - title: "bboUser"
+      url: "https://twitter.com/youK197_YT"
+  github:
+    - title: "NoteSwiper"
+      url: "https://github.com/NoteSwiper"
   roblox:
-    main: "https://user.rblx.name/youK197_YT"
-    sub: "https://user.rblx.name/NotKnownUser"
-  twitch: "https://twitch.tv/anyone556a/home"
+    - title: "youK197_YT"
+      url: "https://user.rblx.name/youK197_YT"
+    - title: "tohfgugftfyhytr"
+      url: "https://user.rblx.name/NotKnownUser"
+  twitch: 
+    - title: "anyone556a"
+      url: "https://twitch.tv/anyone556a/home"
   blog:
     - title: "AML556 Plugged"
       url: "https://aml556plugged.blogstation.jp"
@@ -16,9 +34,18 @@
 
 - title: "script1000"
   type: 0
-  website: "https://script1000.github.io"
-  github: "https://github.com/script1000"
-  youtube: "https://www.youtube.com/@script-pg5xz"
+  website:
+    - title: "Home Page"
+      url: "https://script1000.github.io"
+  twitter: 
+    - title: "script1000"
+      url: "https://twitter.com/script1000git"
+  github: 
+    - title: "script1000"
+      url: "https://github.com/script1000"
+  youtube:
+    - title: "script1000"
+      url: "https://www.youtube.com/@script-pg5xz"
   orgs:
     created:
       - title: "test-temporaryOrganizations"
@@ -30,9 +57,17 @@
 
 - title: "TermSlime"
   type: 0
-  youtube: "https://www.youtube.com/@termSlimeMC_YT"
-  website: "https://termslime.github.io"
-  github: "https://github.com/termSlime"
+  youtube: 
+    - title: "termSlime-jar"
+      url: "https://www.youtube.com/@termSlimeMC_YT"
+    - title: "term2Slime"
+      url: "https://www.youtube.com/@termSlime2"
+  website:
+    - title: "home page"
+      url: "https://termslime.github.io"
+  github:
+    - title: "termSlime"
+      url: "https://github.com/termSlime"
   orgs:
     created:
       one:
@@ -41,85 +76,121 @@
 
 - title: "0micro"
   type: 0
-  website: "https://0micro.github.io"
-  github: "https://github.com/0micro"
+  website:
+    - title: "home page"
+      url: "https://0micro.github.io"
+  github:
+    - title: "0micro"
+      url: "https://github.com/0micro"
 
 - title: "EnchantedSii"
   type: 0
-  youtube: "https://www.youtube.com/@user-wi6lo8xu7p"
-  github: "https://github.com/EnchantedSii"
+  youtube:
+    - title: "エンチャントされたしぃ"
+      url: "https://www.youtube.com/@user-wi6lo8xu7p"
+  twitter:
+    - title: "名無し"
+      url: "https://twitter.com/asciiarchiver"
+  github:
+    - title: "EnchantedSii"
+      url: "https://github.com/EnchantedSii"
 
 - title: "RblxLuauDevCode"
   type: 0
-  youtube: "https://www.youtube.com/@rblxluaudevcode5750"
-  github: "https://github.com/RblxLuauDevCode"
-  website: "https://rblxluaudevcode.github.io"
+  youtube: 
+    - title: "RblxLuauDevCode"
+      url: "https://www.youtube.com/@rblxluaudevcode5750"
+  github: 
+    - title: "RblxLuauDevCode"
+      url: "https://github.com/RblxLuauDevCode"
+  website:
+    - title: "Home Page"
+      url: "https://rblxluaudevcode.github.io"
 
 - title: "ppgHuman"
   type: 0
-  youtube: "https://www.youtube.com/@ppgHuman"
-  github: "https://github.com/ppgHuman"
+  youtube: 
+    - title: "ppgHuman"
+      url: "https://www.youtube.com/@ppgHuman"
+  github:
+    - title: "ppgHuman"
+      url: "https://github.com/ppgHuman"
 
 - title: "easy311 / modifiedSquid"
   type: 1
-  youtube: "https://www.youtube.com/@easy311"
-
-- title: "someone's thing"
-  type: 1
-  youtube: "https://www.youtube.com/@someonesArt"
+  youtube: 
+    - title: "easy311 / modifiedSquid"
+      url: "https://www.youtube.com/@easy311"
 
 - title: "SCP-132-JP 紙魚入る"
   type: 1
-  youtube: "https://www.youtube.com/@scp132jp"
+  youtube: 
+    - title: "SCP-132-JP 紙魚入る"
+      url: "https://www.youtube.com/@scp132jp"
   meta:
     categories: ["fiction","scp","scp-jp","japanese"]
     note: "name of channel is from SCP JP Wiki. i'm not a creator and we don't claims their creations. creation by locker"
 
-- title: "term2Slime"
-  type: 1
-  youtube: "https://www.youtube.com/@termSlime2"
-
 - title: "TheNoobyGaming"
   type: 2
-  youtube: "https://www.youtube.com/@thenoobyrblx"
+  youtube: 
+    - title: "TheNoobyGaming"
+      url: "https://www.youtube.com/@thenoobyrblx"
+    - title: "SubNooby"
+      url: "https://www.youtube.com/@subnooby"
+  twitter:
+    - title: "TheNoobyRBLX"
+      url: "https://twitter.com/TheNoobyRBLX"
   roblox:
-    main: "https://user.rblx.name/a_millionofc"
-    sub: "https://user.rblx.name/TheSubNooby"
+    - title: "A_Millionofc"
+      url: "https://user.rblx.name/a_millionofc"
+    - title: "TheSubNooby"
+      url: "https://user.rblx.name/TheSubNooby"
 
 - title: "F The Alphabet Lore Villain Letter"
   type: 1
-  youtube: "https://www.youtube.com/@eeaaaf"
+  youtube: 
+    - title: "F The Alphabet Lore Villain Letter"
+      url: "https://www.youtube.com/@eeaaaf"
 
 - title: "ragdoll_extend"
   type: 1
-  youtube: "https://www.youtube.com/@ragdoll_extend"
+  youtube: 
+    - title: "ragdoll_extend"
+      url: "https://www.youtube.com/@ragdoll_extend"
 
 - title: "TheCorruptedCube"
   type: 1
-  youtube: "https://www.youtube.com/@thecorruptedcube8226"
+  youtube:
+    - title: "TheCorruptedCube"
+      url: "https://www.youtube.com/@thecorruptedcube8226"
 
 - title: "intel NoobCPU"
   type: 1
-  youtube: "https://www.youtube.com/@intelnoobcpu9792"
+  youtube: 
+    - title: "intel NoobCPU"
+      url: "https://www.youtube.com/@intelnoobcpu9792"
   roblox:
-    main: "https://user.rblx.name/contentIntelNoob"
+    - title: "contentIntelNoob"
+      url: "https://user.rblx.name/contentIntelNoob"
 
 - title: "Partyenjoyer"
   type: 1
-  youtube: "https://www.youtube.com/@partyenjoyer1358"
-
-- title: "TheNoobySub / polgenSYTサブ"
-  type: 1
-  youtube: "https://www.youtube.com/@subnooby"
-  roblox:
-    main: "https://user.rblx.name/a_millionofc"
-    sub: "https://user.rblx.name/TheSubNooby"
+  youtube: 
+    - title: "Partyenjoyer"
+      url: "https://www.youtube.com/@partyenjoyer1358"
 
 - title: "Roblox Inflation videos"
   type: 3
-  youtube: "https://www.youtube.com/@robloxinflationvideos3210"
+  youtube: 
+    - title: "Roblox Inflation videos"
+      url: "https://www.youtube.com/@robloxinflationvideos3210"
 
 - title: "inf latem"
   type: 3
-  youtube: "https://www.youtube.com/@inflatem"
-  deviantart: "https://devintart.com/inflatem"
+  youtube: 
+    - title: "inflatem"
+      url: "https://www.youtube.com/@inflatem"
+  deviantart: 
+    - title: "inflatem"
+      url: "https://devintart.com/inflatem"
