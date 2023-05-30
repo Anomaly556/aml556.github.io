@@ -1,0 +1,24 @@
+{
+  "data": {
+    "greets": [
+      "hi",
+      "hello",
+      "hey",
+      "yo",
+      "ya",
+      "hey guys"
+    ],
+    "idle": [
+      "uh",
+      "uhh",
+      "uuh",
+      "uhhh",
+      "uuhh",
+      "uuuh",
+      "uhhhh",
+      "uuhhh",
+      "uuuhh",
+      "uuuuh"
+    ]
+  }
+}
