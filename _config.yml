@@ -10,6 +10,8 @@ author:
   twitter: https://twitter.com/alphabetloreFAZ
   youtube: https://www.youtube.com/@noteswiper
 
+include: ["_core","core","_apis","_api","apis","api","_resources","res"]
+
 youtube_handle: "https://www.youtube.com/"
 twitteruser: "https://twitter.com"
 githubuser: "https://github.com"
