@@ -23,7 +23,7 @@ if (getParam("apiName")) apiName = getParam("apiName");
 if (getParam("additional")) additional = getParam("additional");
 
 if (additional == undefined | additional == null) {
-    location.href = origin + "/resources/coreApis/" + gameId + "/" + apiName;
+    location.href = origin + "/resources/coreApis/" + gameId + "/" + apiName + "." + fileType;
 } else {
-    location.href = origin + "/resources/coreApis/" + gameId + "/" + additional + apiName;
+    location.href = origin + "/resources/coreApis/" + gameId + "/" + additional + apiName + "." + fileType;
 }
