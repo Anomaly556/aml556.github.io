@@ -1,9 +1,10 @@
 ---
 layout: default
 ---
-
+{%- assign id = 0 -%}
 {% for social in site.data.socials %}
-    <div class="">
+    {%- increment id -%}
+    <div class="socialitem socialitem-{{ id }}">
         {% case social.type %}
             {% when 0 %}
                 <h2>Socials: Information of {{ social.title }}</h2>
@@ -19,58 +20,58 @@ layout: default
         {% endif %}
         {% if social.youtube %}
             {%- for item in social.youtube -%}
-                <span>Youtube: <a href="{{ social.youtube }}">{{ social.title }}</a></span><br>
+                <span>Youtube: <a href="{{ item.url }}">{{ item.title }}</a></span><br>
             {%- endfor -%}
         {% endif %}
         {% if social.website %}
             {%- for item in social.website -%}
-                <span>Website: <a href="{{ social.website }}">{{ social.website }}</a></span><br>
+                <span>Website: <a href="{{ item.url }}">{{ item.title }}</a></span><br>
             {%- endfor -%}
         {% endif %}
         {% if social.twitter %}
             {%- for item in social.twitter -%}
-                <span>Twitter: <a href="{{ social.twitter }}">{{ social.twitter }}</a></span><br>
+                <span>Twitter: <a href="{{ item.url }}">{{ item.title }}</a></span><br>
             {%- endfor -%}
         {% endif %}
         {% if social.github %}
             {%- for item in social.github -%}
-        <span>Github: <a href="{{ social.github }}">{{ social.github }}</a></span><br>
+        <span>Github: <a href="{{ item.url }}">{{ item.title }}</a></span><br>
         {% endfor %}
         {% endif %}
         {% if social.roblox %}
-        <span>Roblox Main Account: <a href="{{ social.roblox.main }}">{{ social.roblox.main }}</a></span><br>
-            {% if social.roblox.sub %}
-            <span>Roblox sub Account: <a href="{{ social.roblox.sub }}">{{ social.roblox.sub }}</a></span><br>
-            {% endif %}
-        {% endif %}
+            {%- for item in social.roblox -%}
+        <span>Github: <a href="{{ item.url }}">{{ item.title }}</a></span><br>
+        {% endfor %}
         {% if social.twitch %}
-        <span>Twitch: <a href="{{ social.twitch }}">{{ social.twitch }}</a></span><br>
-        {% endif %}
+            {%- for item in social.twitch -%}
+        <span>Github: <a href="{{ item.url }}">{{ item.title }}</a></span><br>
+        {% endfor %}
         {% if social.blog %}
-            {% for blogurl in social.blog %}
-            <span>Blog: <a href="{{ blogurl.url }}">{{ blogurl.title }}</a></span><br>
-            {% endfor %}
-        {% endif %}
+            {%- for item in social.blog -%}
+        <span>Github: <a href="{{ item.url }}">{{ item.title }}</a></span><br>
+        {% endfor %}
         {% if social.orgs %}
             {% if social.orgs.created %}
-                {% for creation in social.orgs.created %}
-                <span>Org Title: <a href="{{ creation.github }}">{{ creation.title }}</a></span><br>
+                {% for item in social.orgs.created %}
+                <span>org Title: <a href="{{ item.github }}">{{ item.title }}</a></span><br>
                     {% if creation.website %}
-                    <span>Link: <a href="{{ creation.website }}">{{ creation.website }}</a></span><br>
+                    <span>Link: <a href="{{ item.website }}">{{ item.website }}</a></span><br>
                     {% endif %}
                 {% endfor %}
             {% endif %}
             {% if social.orgs.joining %}
-                {% for joining in social.orgs.joining %}
-                <span>Join Org Title: <a href="{{ joining.github }}">{{ joining.title }}</a></span><br>
+                {% for item in social.orgs.joining %}
+                <span>Join Org Title: <a href="{{ item.github }}">{{ item.title }}</a></span><br>
                     {% if creation.website %}
-                    <span>Url: <a href="{{ joining.website }}">{{ joining.website }}</a></span><br>
+                    <span>Url: <a href="{{ item.website }}">{{ item.website }}</a></span><br>
                     {% endif %}
                 {% endfor %}
             {% endif %}
         {% endif %}
         {% if social.deviantart %}
-        <span>Deviantart: <a href="{{ social.deviantart }}">{{ social.deviantart }}</a></span><br>
+        {% for item in social.deviantart %}
+        <span>Deviantart: <a href="{{ item.url }}">{{ item.title }}</a></span><br>
+        {% endfor %}
         {% endif %}
     </div>
 {% endfor %}
