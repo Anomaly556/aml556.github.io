@@ -1,10 +1,8 @@
 ---
 layout: default
 ---
-{%- assign id = 0 -%}
 {% for social in site.data.socials %}
-{%- increment id -%}
-<div class="socialitem socialitem-{{ id }}">
+<div class="socialitem">
     {% case social.type %}
     {% when 0 %}
     <h2>Socials: Information of {{ social.title }}</h2>
@@ -50,6 +48,28 @@ layout: default
     {%- for item in social.blog -%}
     <span>Github: <a href="{{ item.url }}">{{ item.title }}</a></span><br>
     {% endfor %}
-
+    {% if social.orgs %}
+    {% if social.orgs.created %}
+    {% for item in social.orgs.created %}
+    <span>org Title: <a href="{{ item.github }}">{{ item.title }}</a></span><br>
+    {% if creation.website %}
+    <span>Link: <a href="{{ item.website }}">{{ item.website }}</a></span><br>
+    {% endif %}
+    {% endfor %}
+    {% endif %}
+    {% endif %}
+    {% if social.orgs.joining %}
+    {% for item in social.orgs.joining %}
+    <span>Join Org Title: <a href="{{ item.github }}">{{ item.title }}</a></span><br>
+    {% if creation.website %}
+    <span>Url: <a href="{{ item.website }}">{{ item.website }}</a></span><br>
+    {% endif %}
+    {% endfor %}
+    {% endif %}
+    {% if social.deviantart %}
+    {% for item in social.deviantart %}
+    <span>Deviantart: <a href="{{ item.url }}">{{ item.title }}</a></span><br>
+    {% endfor %}
+    {% endif %}
 </div>
 {% endfor %}
