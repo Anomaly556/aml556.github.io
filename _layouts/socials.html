@@ -71,7 +71,7 @@ layout: default
         {% if social.deviantart %}
             {% for item in social.deviantart %}
                 <span>Deviantart: <a href="{{ item.url }}">{{ item.title }}</a></span><br>
-            {% endif %}
+            {% endfor %}
         {% endif %}
     </div>
 {% endfor %}
