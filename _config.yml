@@ -86,15 +86,6 @@ feed:
     - pages
   posts_limit: 128
   tags: true
-  collections:
-    - _core
-    - _pages
-    - _posts
-    - assets
-    - pages
-    - information
-    - resources
-    - tags
 
 lsi: true
 
