@@ -78,12 +78,6 @@ noteswiper:
     name: NoteSwiper
 
 feed:
-  categories:
-    - art
-    - music
-    - translated
-    - post
-    - pages
   posts_limit: 128
   tags: true
 
