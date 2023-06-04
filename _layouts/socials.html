@@ -50,24 +50,6 @@ layout: default
     {%- for item in social.blog -%}
     <span>Github: <a href="{{ item.url }}">{{ item.title }}</a></span><br>
     {% endfor %}
-    {% if social.orgs %}
-        {% if social.orgs.created %}
-            {% for item in social.orgs.created %}
-    <span>org Title: <a href="{{ item.github }}">{{ item.title }}</a></span><br>
-                {% if creation.website %}
-    <span>Link: <a href="{{ item.website }}">{{ item.website }}</a></span><br>
-                {% endif %}
-            {% endfor %}
-        {% endif %}
-    {% endif %}
-    {% if social.orgs.joining %}
-        {% for item in social.orgs.joining %}
-    <span>Join Org Title: <a href="{{ item.github }}">{{ item.title }}</a></span><br>
-            {% if creation.website %}
-    <span>Url: <a href="{{ item.website }}">{{ item.website }}</a></span><br>
-            {% endif %}
-        {% endfor %}
-    {% endif %}
 
 </div>
 {% endfor %}
