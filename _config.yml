@@ -77,6 +77,25 @@ noteswiper:
   github:
     name: NoteSwiper
 
+feed:
+  categories:
+    - art
+    - music
+    - translated
+    - post
+    - pages
+  posts_limit: 128
+  tags: true
+  collections:
+    - _core
+    - _pages
+    - _posts
+    - assets
+    - pages
+    - information
+    - resources
+    - tags
+
 lsi: true
 
 sass:
@@ -134,7 +153,19 @@ profile: true
 jekyll-minifier:
   exclude: 'atom.xml'
 
-defaults: []
+defaults: 
+  -
+    scope:
+          path: ""
+    values:
+      date: ""
+      excerpt: false
+      id: ""
+      category: "page"
+      tags: ["github"]
+      image: "/assets/img/pr0cdures_preview.png"
+      author: "NoteSwiper"
+      description: "none"
 
 webrick:
   headers:
