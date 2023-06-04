@@ -143,13 +143,7 @@ defaults:
     scope:
           path: ""
     values:
-      excerpt: false
-      id: ""
-      category: "page"
-      tags: ["github"]
       image: "/assets/img/pr0cdures_preview.png"
-      author: "NoteSwiper"
-      description: "none"
 
 webrick:
   headers:
