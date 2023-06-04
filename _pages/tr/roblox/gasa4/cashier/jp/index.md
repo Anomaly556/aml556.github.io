@@ -32,7 +32,7 @@ Cashierは、Blockyビルドで、濃い緑色の胴体と明るい黄色の腕�
 
 これは、彼が開発者のStixxalやプレーヤーがさまざまな実行でストアに入った回数などについて言及したり、ジョークとしてゲーム内にいることを直接認めたりした場合に顕著です。
 
-{% include draftft.md lang="jp" %}
+{% include draftview.md lang="jp" %}
 
 [Get a snack at 4am]: https://noteswiper.github.io/wiki-tr/tr/roblox/gasa4/GetaSnackAt4am/jp?from=roblox%2Fgasa4%2Fcashier%2Fjp
 [Store]: https://noteswiper.github.io/wiki-tr/tr/roblox/gasa4/Store/jp?from=roblox%2Fgasa4%2Fcashier%2Fjp
