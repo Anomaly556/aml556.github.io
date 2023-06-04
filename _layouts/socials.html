@@ -68,10 +68,6 @@ layout: default
             {% endif %}
         {% endfor %}
     {% endif %}
-    {% if social.deviantart %}
-        {% for item in social.deviantart %}
-    <span>Deviantart: <a href="{{ item.url }}">{{ item.title }}</a></span><br>
-        {% endfor %}
-    {% endif %}
+
 </div>
 {% endfor %}
