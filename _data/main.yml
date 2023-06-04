@@ -16,6 +16,8 @@ website:
         to: "/about"
       - title: "Socials"
         to: "/socials"
+      - title: "Translated Contents"
+        url: "/tr/"
   socials:
     def:
       title: "Default"

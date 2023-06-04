@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="en">
+{% include comments.html %}
+<html lang="{{ site.lang }}" dir="ltr" spellcheck="true">
     <head>
         {% include head.html %}
         <!-- {% include sw-script.html %} -->
@@ -26,6 +27,7 @@
                 </div>
             </article>
             <footer id="foot"></footer>
+            {% if jekyll.environment == "production" %}<p>prod</p>{%endif%}
             </div>
         <script src='https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/highlight.min.js'></script>
         <script src='https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.11/clipboard.min.js'></script>

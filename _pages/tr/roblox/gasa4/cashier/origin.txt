@@ -1,0 +1,56 @@
+<!--{% include fandom/infobox.html title="" image="" aliases=["a","b"] pronouns="" occupations="" relationships="" residence="" sounds="" %}-->
+
+<!--
+i do not use these code or content for commercial!
+{{Tabs|tab1=Information|tab2=Gallery|tab3=Quotes}}
+
+{{Spoilers}}
+
+{{Redirect box|Not to be confused with his [[Cashier (SNACKCORE)|SNACKCORE counterpart]].}}
+
+{{Character infobox
+|title = Cashier
+|image = CashierBestView.png
+|aliases = The cashier <br/> Green fella
+|pronouns = He/him
+|occupations =
+* Storekeeper
+* Keeping the world together ([[The Finale|Bad ending]])
+|relationships = 
+|residence = [[Store (GASA4)|Store]]
+|sounds = [[File:Ralsei-Text.ogg]]}}
+
+{{Quote|have you every wondered about the possibility that we're just inside... a game? |Cashier|[[Get a snack at 4 am|GASA4]]}}
+
+'''Cashier''' is an important character in [[get a snack at 4 am]]. He runs the [[Store (GASA4)|store]].
+
+== Appearance ==
+Cashier has a blocky build. He has a dark green torso, light yellow arms and head, and blue leggings. He has the default smiling face and wears a turquoise green and black [[Cashier's visor|visor]] with the word "Roblox" in the front. The visor comes from the 2017 Roblox Visor accessory from the Roblox Catalog.<ref>https://www.roblox.com/catalog/116777823/2017-Roblox-Visor</ref>
+
+== Overview ==
+At first, Cashier appears as a regular shopkeeper NPC. He talks to the player about what items they are buying, how much is the cost, and stuff like that. But as the game progresses, his dialogs start implying that he knows he is inside a game. This is noticeable when he mentions things like "the [[Stixxal|developer]]", the number of times the player has entered the store in different runs, or when he even acknowledges directly he is inside a game as a joke. 
+
+This is the most notorious when the player tries to [[Shoplift|take]] items from the store without buying them, when Cashier is on shift. He will instantly teleport in front of the player as they exit the store, turning the world and GUI red, and playing creepy [[Soundtracks|music]]. Then, he will give you a dialog and end the run. This dialog reflects the fact that he knows how many times the player has tried to shoplift in different runs, despite NPCs not supposedly being able to know that.
+
+Soon after the [[Player (GASA4)|player]] leaves the game due to completing the [[Get a snack at 4 AM]] ending, and the story focuses on Cashier instead. According to Stixxal<ref>https://twitter.com/stixxal/status/1519508643300790272</ref>, the real player is not actually controlling Cashier, they are just watching him make decisions (they are playable for gameplay purposes).
+
+This ends up with the [[Orby (GASA4)|Orb]] leaking some of its information onto Cashier. After he and [[Dummy (GASA4)|Dummy]] find about the unstable status of Orby through [[Kyu (GASA4)|Kyu]], Cashier decides to make the sacrifice of taking the role of Orby, concluding in a sort of bad ending, as Cashier leaves the main game, leaving Dummy alone. If Dummy is the one that takes Orby's role, as they are more capable for that, Cashier will stay, resulting in a good ending.
+
+Cashier makes a brief cameo in [[get a snack at 4 am roleplay (oficial)]]'s [[GASA4 Anniversary]] event, where the players meet the variant of Cashier that was left after the [[Soda Flood|Flooded]] ending, trapped in the freezer. However, they will quickly be murdered by Kyu, who wanted to experience being the bad guy for once.
+
+== Trivia ==
+* The sound used for Cashier's dialog text is [https://deltarune.fandom.com/wiki/Ralsei Ralsei]'s dialog text sound from ''Deltarune''.
+* Cashier, along with Orby, is one of the two characters whose dialogs are almost always written in lowercase.
+* While his ''"qwertyuiopasdfghjklzxcvbnm"'' dialog seems random, it is actually the order of the alphabet letters in the QWERTY keyboard design, if it is read from top left to bottom right in order.
+* Cashier's ''"don't you have anything better to do?"'' line is most likely a reference to [https://undertale.fandom.com/wiki/Flowey Flowey] from ''Undertale'', who also uses this phrase if the player is repeating an action too many times.
+* His body colors are the default body colors added to a dummy in Roblox Studio.
+* According to [[Stixxal]] on a tweet in her [[Stixxal's QnA|QnA]], Cashier isn't based on anything. They were created because Stixxal needed a character whose only purpose was to be a cashier.<ref>https://twitter.com/stixxal/status/1477772301080809474</ref>
+* Cashier makes an appearance in Stixxal's other project, Todd's Breakfast Adventure, as a new character known as "Ghoshier", who can be summoned by throwing rocks into Towon's fountain. According to the second cancelled build's Extras, Stixxal did not want to add Cashier altogether to TBA but she was stuck when trying to think of a ghost character for the fountain. So she decided to turn Cashier into a ghost and make him a furry due to it being a running joke.
+== References ==
+<references/>
+
+{{Character navbox}}
+
+[[Category:Characters]]
+[[Category:Morphs]]
+[[Category:GASA4 characters]] -->

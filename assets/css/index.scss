@@ -1,106 +1,161 @@
----
+--- 
 # this file uses scss
 # for making css easier and responsivable.
 # don't tell me!
+file-type: "scss"
+data-type: 1
 ---
+* {
+    margin: auto;
+    transition: all 0.2s ease-out;
+}
 
 body {
+    margin: auto;
     color-scheme: dark;
     background: rgb(24, 24, 24);
     color: white;
     font-family: "Roboto", sans-serif;
-    margin: 0;
     padding: 0;
+
     a {
-      img {
-        border-radius: 0.3em;
-        background: rgba(255,255,255,0.2);
+        img {
+            margin: 2px 4px;
+            border-radius: 0.3em;
+            background: rgba(255, 255, 255, 0.2);
+            backdrop-filter: blur(8px);
+            vertical-align: text-top;
+            justify-content: center;
+        }
+
+        &:hover {
+            background: rgba(56, 56, 56, 0.3);
+        }
+
+        margin: auto;
+        text-decoration: none;
+        background: rgba(0, 0, 0, 0.2);
+        padding: 2px;
         backdrop-filter: blur(8px);
-        justify-content: center;
-      }
-      text-decoration: none;
-      background: rgba(0,0,0,0.2);
-      padding: 2px;
-      backdrop-filter: blur(8px);
     }
+
     .container {
-      position: relative;
+        position: relative;
     }
+
     .channel-pfp {
-      text-align: center;
-      max-width: 50px;
-      border-radius: 50%;
-      margin: 0;
+        text-align: center;
+        max-width: 50px;
+        border-radius: 50%;
+        margin: 0;
     }
+
     #menunav {
-      background: rgba(50, 70, 50, 0.4);
-      margin: auto;
-      border-radius: 0.5em;
-      padding: 8px;
-      text-align: center;
-      justify-content: center;
+        background: rgba(50, 70, 50, 0.4);
+        margin: auto;
+        border-radius: 0.5em;
+        padding: 8px;
+        text-align: center;
+        justify-content: center;
     }
+
     #link-normal {
-      transition: all 0.1s ease-out;
-      background: rgba(255, 255, 255, 0.2);
-      color: white;
-      text-decoration: none;
-      margin: auto;
-      padding: 4px;
-      border-radius: 0.3em;
+        transition: all 0.1s ease-out;
+        background: rgba(255, 255, 255, 0.2);
+        color: white;
+        text-decoration: none;
+        margin: auto;
+        padding: 4px;
+        border-radius: 0.3em;
     }
+
     #link-normal:hover {
-      padding: 8px;
-      background: rgba(50, 200, 50, 0.2);
+        padding: 8px;
+        background: rgba(50, 200, 50, 0.2);
     }
+
     #link-normal:active {
-      color: green;
+        color: green;
     }
+
     #link-normal:visited {
-      color: lightblue;
+        color: lightblue;
     }
+
     #headdy {
-      display: flex;
-      background: rgba(0, 0, 0, 0.2);
-      margin: 0;
-      padding: 0;
+        display: flex;
+        background: rgba(0, 0, 0, 0.2);
+        margin: 0;
+        padding: 0;
     }
+
     hr {
-      margin: 4px;
+        margin: 4px;
     }
+
     #webt {
-      margin: 4px;
+        margin: 4px;
     }
+
     #linking {
-      position: relative;
-      background: red;
-      margin: auto;
-      width: 70%;
-      height: 50px;
-      border-radius: 8px;
+        position: relative;
+        background: red;
+        margin: auto;
+        width: 70%;
+        height: 50px;
+        border-radius: 8px;
     }
+
     #classlni {
-      text-align: center;
-      margin: 0;
-      padding: 0;
+        text-align: center;
+        margin: 0;
+        padding: 0;
     }
+
     .textstringac {
-      background: rgba(100, 100, 100, 0.2);
+        background: rgba(100, 100, 100, 0.2);
     }
+
     #artic {
-      background: rgba(50, 50, 50, 0.5);
-      border-radius: 0.8em;
-      margin: auto;
-      width: 80%;
-      text-align: center;
+        background: rgba(50, 50, 50, 0.5);
+        border-radius: 0.8em;
+        margin: auto;
+        width: 80%;
+        text-align: center;
+
+        .textstringac {
+            .socialitem {
+                h2 {
+                    margin: 0;
+                }
+            }
+        }
     }
+
     h1,
     h2,
     h3,
     h4,
     h5,
     h6 {
-      text-shadow: 0 0 5px white;
+        text-shadow: 0 0 5px white;
     }
-  }
-  
+
+    &::-webkit-scrollbar {
+        background: rgba(0, 0, 0, 0.5);
+        backdrop-filter: blur(16px);
+        border-radius: 4px;
+        margin: 4px;
+    }
+
+    &::-webkit-scrollbar-track {
+        background: rgba(255, 0, 0, 0.2);
+    }
+
+    &::-webkit-scrollbar-thumb {
+        backdrop-filter: blur(16px);
+        border-radius: 4px;
+        background: rgba(0, 0, 0, 0.4);
+        margin: 2px;
+    }
+}

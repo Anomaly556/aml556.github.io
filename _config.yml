@@ -4,8 +4,19 @@
 # This configuration can readable using Liquid.
 name: noteswiper
 title: noteswiper
+
+liquid:
+  error_mode: warn
+  strict_filters: false
+  strict_variables: false
+
+disable_disk_cache: false
+
 url: https://noteswiper.github.io
 sitemap: true
+
+future: true
+
 author:
   twitter: https://twitter.com/alphabetloreFAZ
   youtube: https://www.youtube.com/@noteswiper
@@ -19,6 +30,16 @@ include:
   - api
   - _resources
   - res
+  - _pages
+
+exclude: []
+keep_files:
+  - ".git"
+
+encoding: utf-8
+
+timezone: Asia/Tokyo
+
 
 youtube_handle: "https://www.youtube.com/"
 twitteruser: "https://twitter.com"
@@ -55,6 +76,8 @@ noteswiper:
     id: alphabetloreFAZ
   github:
     name: NoteSwiper
+
+lsi: true
 
 sass:
   style: compressed
@@ -106,8 +129,16 @@ typescript:
   command: ['tsc']
   cache: true
 
+profile: true
+
 jekyll-minifier:
   exclude: 'atom.xml'
+
+defaults: []
+
+webrick:
+  headers:
+    test: "false"
 
 assets:
   source_maps: true
@@ -168,10 +199,56 @@ toc:
   item_class: toc-entry
   item_prefix: toc-
 
+markdown: kramdown
+highlighter: rouge
+
+
+
 titles_from_headings:
   enabled: true
   strip_title: false
   collections: false
+
+collections:
+  posts:
+    output: true
+  _pages:
+    output: true
+
+limit_posts: 0
+
+rdiscount:
+  extensions: []
+
+redcarpet:
+  extensions: []
+
+kramdown:
+  input: GFM
+  hard_wrap: false
+  gfm_emojis: true
+  auto_id_prefix: "id" 
+  auto_id_stripping: true
+  auto_ids: true
+  entity_output: as_char
+  footnote_backlink: "&#8617;"
+  footnote_backlink_inline: "false"
+  footnote_nr: 1
+  footnote_prefix: "fp"
+  header_offset: 0
+  html_to_native: false
+  latex_headers: section,subsection,subsubsection,paragraph,subparagraph,subparagraph
+  line_width: 72
+  math_engine: mathjax
+  parse_block_html: false
+  parse_span_html: true
+  remove_block_html_tags: true
+  remove_line_breaks_for_cjk: false
+  remove_span_html_tags: false
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  syntax_highlighter: rouge
+  template: none
+  transliterated_header_ids: true
 
 permalink: /:categories/:year/:month/:day/:title:output_ext
 
@@ -191,9 +268,11 @@ languages: ['ja','en']
 default_lang: 'en'
 exclude_from_localization: ['javascript','images','css']
 parallel_localization: false
-
+excerpt_separator: \n\n
 language_data: data.lang.%%
 language_includes_dir: _i18n
 show_dir_listing: true
 plugins_dir: _plugins
 data_dir: _data
+
+show_drafts: true

@@ -1,7 +1,18 @@
 ---
-layout: defaulttest
+layout: default
 ---
-<h1>there is no Data from requested content</h1>
-<p>this page will display on the content did not exists.</p>
-<p>get back into your previous page on below link.</p>
-<button onclick="history.back();" name="get back">Back into previous page</button>
+
+<div id="404-error">
+    <h1>Error 404 - Content not found!</h1>
+    <p>
+        You accessed a content that don't exists!<br>
+        to exit this error, press button below or back to pages from navigation bar!
+    </p>
+    <div id="extra-resad">
+        <p>
+            if you access to "https://noteswiper.github.io/wiki-tr/{ translated-pagename }" to watch,<br>
+            access new page here! => <button class="interTo" onclick="buttonred()">Access New Page</button>
+        </p>
+    </div>
+    <button onclick="history.back();" name="Back to Previous page">Back to previous page you access</button>
+</div>

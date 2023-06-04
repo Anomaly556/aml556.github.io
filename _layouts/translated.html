@@ -1,0 +1,33 @@
+---
+layout: default
+name: "No \"name\" defined"
+title: "No \"title\" defined "
+published: false
+---
+
+{% case page.translated_lang %}
+    {% when "jp" %}
+        {% case page.translated_status %}
+            {% when "draft" %}
+                <h2>このコンテンツは現在、"ドラフト"に指定されています。</h2>
+        {% endcase %}
+    {% when "en" %}
+        {% case page.translated_status %}
+            {% when "draft" %}
+                <h2>currently, this content has categolized to "Draft".</h2>
+        {% endcase %}
+{% endcase %}
+
+<h1>{{ page.title }}</h1>
+    {% case page.translated_lang %}
+    {% when "jp" %}
+    <p>
+        このコンテンツは、{{ page.origin_wikitype }}の<a href="{{ page.origin_pageurl }}">{{ page.origin_wikiname }}</a>から翻訳したものです。
+    </p>
+    {% when "en" %}
+    <p>
+        the content is translated from {{ page.origin_wikitype }}'s<a href="{{ page.origin_pageurl }}">{{ page.origin_wikiname }}</a> for anyone who can't read.
+    </p>
+    {% endcase %}
+
+{{ content }}
