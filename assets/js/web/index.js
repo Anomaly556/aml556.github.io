@@ -26,17 +26,21 @@ var connected = getParam("connected");
 var webname = getParam("webname");
 var usrname = getParam("usrname");
 var lang = getParam("lang");
+var prev;
+var from = getParam("from");
 
+if (from) {
+    prev = from;
+}
 
-
-if (getParam("connected")) {
+if (connected) {
   
 }
 
-if (getParam("usrname")) {
+if (usrname) {
   document.getElementById('welcome').innerHTML = `hello, ` + getParam("usrname") + "!";
 }
-if (getParam("lang")) {
+if (lang) {
   let current = location.origin + location.pathname;
   let curparam = location.search;
   let curhash = location.hash;
