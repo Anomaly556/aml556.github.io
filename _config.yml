@@ -158,7 +158,6 @@ defaults:
     scope:
           path: ""
     values:
-      date: ""
       excerpt: false
       id: ""
       category: "page"
