@@ -1,0 +1,58 @@
+{
+  "roblox": {
+    "scripts": {
+      "messages": {
+        "src": [
+          "Hahahaha you can't [shoot,kill,hit] me_P[!,!!,!!!]",
+          "Wow [interesting,nice,cool,fun,amazing,great] place::",
+          "[Bananas,PIE,Chicken,PANCAKE,Cakepan,Pancake]::",
+          "I'm[.blank, really, so, super] bored_P::","[Yay,YAY]::",
+          "[Quack,Moo,Barkbark,Bark bark,ARF,QUACK,Quack,Quackquack,Quack quack]::",
+          "CVar.MsgHack", // Robloxians hack/ feature. It does not affect other players (yet, and that will be configurable), only Robloxians appearance.
+          "CVar.MsgTimebomb", // Robloxian's timebomb response. If he has one, say so. If not, ask for one.
+          "CVar.MsgRobloxianGun", // Robloxian's gun response. If he has one, say so. If not, ask for one.
+          "CVar.MsgHat", // Robloxian's hat response. If he has one, say so. If not, ask for one.
+          "CVar.MsgHello", // Robloxian's hello response. Used both in the auto chat and in the responder.
+          "CVar.MsgNice", // Robloxian's "Very nice." response. Used both in the auto chat and in the responder.
+          "CVar.MsgRandomNumbers", // Robloxian's phonenumber response. 555 is required somewhere as this is a childrens game.
+          "CVar.MsgWeatherText", // Weather function. In development.
+          "I [like,want,need] some [pie,pizza,chicken]_P::",
+          "Do you [like,want,need] [pie,pizza,chicken]_P?",
+          'My [right,left] [leg,arm] says "jacklollz2"[.blank, weird, strange]_P::',
+          "[.blank,Wow ]I'm not really all that blocky anymore_P!", // Previous message was "Why am I so blocky?", because of r15 this changed.
+          "Why [am I,is my body] [.blank,all] shiny?",
+          "Wow, you're [cool,fun]_P::",
+          "I need to [learn how to ,.blank]speak Chopanese[ some day,.blank].",
+          "[Choppy choppy,Choppy] [chop chop chop,chop chop]:: Chopanese [rules,is the best]::"
+        ]
+      },
+      "messa"
+    }
+  }
+}
+  {
+  }
+  FeelingIdle = {
+    VeryGood = {"*VeryHappy*"},
+    Good = {"*Happy*"},
+    Hurt = {"I'm hurt a [lil ,little ,.blank]bit...[ *Sad*,.blank]","[...,..]",":(","uggh::","agg","fvxk[!,!!,!!!,!!!!]"},
+    Pain = {"O[w,ww,www,wwww,wwwww,wwwwww,wwwwwww,wwwwwwww][!,!!,!!!,..,...] I'm hurting[!,!!,!!!][*Sad*,*Upset*,.blank]"},
+    Dying = {"It hurts!","Ahhh [*Sad*,*Upset*]","I think I broke something...[ *Sad*, *Upset*,.blank]"},
+    AboutToDie = {"Stop stop stop!!! I'm going to die!!!!!!","Aaaah!!! My health!!!!!!!!","Ohhhhhhhhhhhhh my goshhhhhhhhhh!!!!!!!!!","EEEEEEEEEEEEE!","I DUN WANNA DIE!"},
+    Dead = {"=(","...","D:",":C","Awe.","<:o","<:O",">:|",">:L",">:(","OOF",":<","[what,wha,wait what,how,why,uhh]? :|"}
+  }
+  Status = {
+    VeryHappy = {":D","XD","=D","=)",":3",":P",":)",":))","C:",":>",";)"},
+    Happy = {":D","=)",":)","xD",":3",":P",">:3",">:)"},
+    Neutral = {":)","xD",":3",":P",":/",":|"},
+    Okay = {":d",":)","..","..",":/",">:/"},
+    Sad = {"):","...","..","D:","3;",":'(",":-("},
+    VerySad = {"D:","):","DX",");",";-;"},
+    Upset = {"._.",";-;","):",");",">:(",">:x",">:|"},
+    VeryUpset = {"._.",">:(",">:((",">:O",">:X",">:F",">:|",">:L","D:<"},
+    Concerned = {"o_o","???","??","!!","O_O"},
+    Angry = {">:(",">:((",">:O",">:X",">:F",">:|",">:L","GRR","!!!!",">:(((","D:<<<","RAA",">:OOO"},
+    VeryAngry = {">:((",">:(((",">:OO",">:X",">:F",">:L","GRRR","!!!!!",">:((((","D:<<<<","RAAAA",">:OOOOOO"},
+    Mischievous = {">:)",">:3",">:D",">:O","GRR","RAAA"}
+  }
+  CurrentStatus = "VeryHappy"

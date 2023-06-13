@@ -1,0 +1,20 @@
+*   text=auto
+
+*.pbxproj   binary
+*.vcproj    text eol=crlf
+
+*.docx  diff=word
+
+*.png   -text diff=exif
+*.jpg   -text diff=exif
+
+*.txt   text ident
+date*.txt   filter=dater
+
+*.c filter=indent
+
+*.sh    text eol=lf
+
+LAST_COMMIT export-subst
+
+database.xml    merge=ours
