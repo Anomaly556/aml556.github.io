@@ -142,8 +142,44 @@ defaults:
   -
     scope:
           path: ""
+          type: "posts"
     values:
       image: "/assets/img/pr0cdures_preview.png"
+  -
+    scope:
+          path: ""
+          type: "trInfo"
+    values:
+          test: "test"
+  - scope:
+          path: ""
+    values:
+          sitemap: true
+  - scope:
+      path: ".jpg"
+    values:
+      type: image
+      type_ext: JPEG
+  - scope:
+      path: ".png"
+    values:
+      type: image
+      type_ext: PNG
+  - scope:
+      path: ".gif"
+    values:
+      type: image
+      type_ext: GIF
+  - scope:
+      path: ".jpeg"
+    values:
+      type: image
+      type_ext: JPEG
+  - scope:
+      path: "/assets/img"
+    values:
+      type: asset_image
+      type_ext: Images
 
 webrick:
   headers:
@@ -164,6 +200,8 @@ assets:
   precompile: []
 
 source_lang: en
+
+page_excerpts: true
 
 elasticsearch:
   url: "https://noteswiper.github.io"
@@ -221,7 +259,10 @@ titles_from_headings:
 collections:
   posts:
     output: true
-  _pages:
+  pages:
+    output: true
+  trInfo:
+    sort_by: sortId
     output: true
 
 limit_posts: 0

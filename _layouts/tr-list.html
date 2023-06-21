@@ -1,3 +1,8 @@
 ---
 layout: default
 ---
+<ul>
+{% for tr_pages in site.trInfo %}
+    <li><a href="{{ tr_pages.url }}">{{ tr_pages.title | tr_pages.name | default: "Untitled post context" }}</a></li>
+{% endfor %}
+</ul>
