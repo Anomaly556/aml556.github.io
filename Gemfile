@@ -6,7 +6,7 @@ gem "sprockets"
 gem "uglifier"
 gem "jekyll"
 gem "html-pipeline"
-
+gem "faraday-retry"
 group :jekyll_plugins do
     gem "classifier-reborn"
     gem "jekyll-avatar"
