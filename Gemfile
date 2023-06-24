@@ -3,8 +3,8 @@ source "https://rubygems.org"
 gem "jekyll"
 
 group :jekyll_plugins do
-    gem "Liquid-md5"
-    gem "Liquid_reading_time"
+    gem "liquid-md5"
+    gem "liquid_reading_time"
     gem "classifier-reborn", "~> 2.2"
     gem "jekyll-analytics"
     gem "jekyll-archives"
