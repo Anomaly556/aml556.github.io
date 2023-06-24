@@ -29,6 +29,7 @@ group :jekyll_plugins do
     gem "jekyll-tagging"
     gem "jekyll_image_encode"
     gem "jemoji"
+    gem "jekyll-toc"
 end
 
 gem "kramdown"
