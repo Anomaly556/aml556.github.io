@@ -94,7 +94,7 @@ plugins:
   # - Liquid-md5
   # - Liquid_reading_time
   # - jekyll-analytics
-   - jekyll-archives
+  # - jekyll-archives
   # - jekyll-assets
    - jekyll-gist
    - jekyll-github-metadata
