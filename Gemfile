@@ -3,8 +3,6 @@ source "https://rubygems.org"
 gem "jekyll"
 
 group :jekyll_plugins do
-    gem "liquid-md5"
-    gem "liquid_reading_time"
     gem "classifier-reborn"
     gem "jekyll-analytics"
     gem "jekyll-archives"
@@ -41,11 +39,5 @@ group :jekyll_plugins do
     gem "jekyll_image_encode"
     gem "jemoji"
     gem "kramdown-syntax-coderay"
-    gem "liquid-c"
-    gem "matrix"
-    gem "mime-types"
-    gem "psych"
-    gem "rdoc"
     gem "searchyll"
-    gem "tomlrb"
 end
