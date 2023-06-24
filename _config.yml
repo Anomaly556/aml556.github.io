@@ -88,43 +88,43 @@ sass:
   sass_dir: _sass
 
 safe: false
-plugins:
-  - Liquid-md5
-  - Liquid_reading_time
-  - jekyll-analytics
-  - jekyll-archives
-  - jekyll-assets
-  - jekyll-avatar
-  - jekyll-feed
-  - jekyll-gist
-  - jekyll-github-metadata
-  - jekyll-google_search_console_verification_file
-  - jekyll-i18n_tags
-  - jekyll-imgix
-  - jekyll-language-plugin
-  - jekyll-loading-lazy
-  - jekyll-localization
-  - jekyll-manager
-  - jekyll-mentions
-  - jekyll-minibundle
-  - jekyll-minifier
-  - jekyll-pwa-workbox
-  - jekyll-redirect-from
-  - jekyll-rendering
-  - jekyll-responsive_image
-  - jekyll-sass-converter
-  - jekyll-seo-tag
-  - jekyll-sitemap
-  - jekyll-webp
-  - jekyll-tagging
-  - jekyll-tagging-related_posts
-  - jekyll-target-blank
-  - jekyll-toc
-  - jekyll-youtube
-  - jekyll_image_encode
-  - jemoji
-  - searchyll
-  - jekyll-tsc
+plugins: 
+   - jekyll-avatar
+  # - jekyll-feed 
+  # - Liquid-md5
+  # - Liquid_reading_time
+  # - jekyll-analytics
+   - jekyll-archives
+  # - jekyll-assets
+   - jekyll-gist
+   - jekyll-github-metadata
+  # - jekyll-google_search_console_verification_file
+  # - jekyll-i18n_tags
+  # - jekyll-imgix
+  # - jekyll-language-plugin
+  # - jekyll-loading-lazy
+  # - jekyll-localization
+  # - jekyll-manager
+   - jekyll-mentions
+  # - jekyll-minibundle
+  # - jekyll-minifier
+  # - jekyll-pwa-workbox
+   - jekyll-redirect-from
+  # - jekyll-rendering
+  # - jekyll-responsive_image
+   - jekyll-sass-converter
+   - jekyll-seo-tag
+  # - jekyll-sitemap
+  # - jekyll-webp
+  # - jekyll-tagging
+  # - jekyll-tagging-related_posts
+  # - jekyll-target-blank
+   - jekyll-toc
+  # - jekyll-youtube
+  # - jekyll_image_encode
+   - jemoji
+  # - searchyll
+  # - jekyll-tsc
 
 typescript:
   temp_dir: .typescript
@@ -187,8 +187,8 @@ webrick:
 
 assets:
   source_maps: true
-  destination: "/assets"
-  compression: false
+  destination: "/assets/cached"
+  compression: true
   gzip: false
   defaults:
     integrity:
