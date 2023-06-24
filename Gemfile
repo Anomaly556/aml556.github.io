@@ -29,7 +29,6 @@ group :jekyll_plugins do
     gem "jemoji"
 end
 
-gem "kramdowm-parser-gfm"
 gem "kramdown"
 gem "liquid"
 gem "nokogiri"
