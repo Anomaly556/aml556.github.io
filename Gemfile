@@ -26,7 +26,6 @@ group :jekyll_plugins do
     gem "jekyll-seo-tag"
     gem "jekyll-titles-from-headings"
     gem "jekyll-relative-links"
-    gem "jekyll-localization"
     gem "jekyll-tagging"
     gem "jekyll_image_encode"
     gem "jemoji"
