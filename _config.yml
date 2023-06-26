@@ -13,6 +13,7 @@ liquid:
 disable_disk_cache: false
 
 url: https://noteswiper.github.io
+baseurl: ""
 sitemap: true
 
 future: true
