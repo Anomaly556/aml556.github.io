@@ -2,8 +2,22 @@
 # https://jekyllrb.com
 #
 # This configuration can readable using Liquid.
+
 name: noteswiper
 title: noteswiper
+description: something
+encoding: utf-8
+
+url: https://noteswiper.github.io
+baseurl: ""
+source: .
+destination: ./_site
+collections_dir: .
+
+future: true
+timezone: Asia/Tokyo
+
+sitemap: true
 
 liquid:
   error_mode: warn
@@ -12,11 +26,7 @@ liquid:
 
 disable_disk_cache: false
 
-url: https://noteswiper.github.io
-baseurl: ""
-sitemap: true
 
-future: true
 
 author:
   twitter: https://twitter.com/alphabetloreFAZ
@@ -32,16 +42,11 @@ include:
   - _resources
   - res
   - _pages
-
 exclude: 
   - CNAME
   - vendor
 keep_files:
   - ".git"
-
-encoding: utf-8
-
-timezone: Asia/Tokyo
 
 youtube_handle: "https://www.youtube.com/"
 twitteruser: "https://twitter.com"
@@ -59,11 +64,7 @@ shortBlox:
     usrName: "user.rblx.name/"
   game: "rblx.games/"
 
-source: .
-destination: ./_site
-collections_dir: .
 
-description: something
 
 noteswiper:
   author: noteswiper
