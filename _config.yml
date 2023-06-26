@@ -90,7 +90,7 @@ sass:
 safe: false
 plugins: 
    - jekyll-avatar
-  # - jekyll-feed 
+   - jekyll-feed 
   # - Liquid-md5
   # - Liquid_reading_time
   # - jekyll-analytics
@@ -114,7 +114,7 @@ plugins:
   # - jekyll-responsive_image
    - jekyll-sass-converter
    - jekyll-seo-tag
-  # - jekyll-sitemap
+   - jekyll-sitemap
   # - jekyll-webp
   # - jekyll-tagging
   # - jekyll-tagging-related_posts
