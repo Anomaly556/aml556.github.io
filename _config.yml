@@ -33,7 +33,9 @@ include:
   - res
   - _pages
 
-exclude: []
+exclude: 
+  - CNAME
+  - vendor
 keep_files:
   - ".git"
 
