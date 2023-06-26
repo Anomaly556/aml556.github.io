@@ -41,7 +41,6 @@ encoding: utf-8
 
 timezone: Asia/Tokyo
 
-
 youtube_handle: "https://www.youtube.com/"
 twitteruser: "https://twitter.com"
 githubuser: "https://github.com"
@@ -249,8 +248,6 @@ toc:
 
 markdown: kramdown
 highlighter: rouge
-
-
 
 titles_from_headings:
   enabled: true
