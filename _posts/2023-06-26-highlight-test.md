@@ -1,5 +1,6 @@
 ---
 layout: 'post'
+published: true
 ---
 
 {% highlight csharp linenos %}
