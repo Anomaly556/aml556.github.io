@@ -145,12 +145,6 @@ defaults:
   -
     scope:
           path: ""
-          type: "posts"
-    values:
-      image: "/assets/img/pr0cdures_preview.png"
-  -
-    scope:
-          path: ""
           type: "trInfo"
     values:
           test: "test"
@@ -309,7 +303,7 @@ pagination:
   sort_reverse: true
   limit: 0
   sort_field: 'date'
-  permalink: '/page/:num/'
+  permalink: '/:num/'
   title: ':title'
   trail:
     before: 3
