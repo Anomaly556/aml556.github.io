@@ -301,7 +301,7 @@ kramdown:
   template: none
   transliterated_header_ids: true
 
-permalink: /:categories/:year/:month/:day/:title:output_ext
+#permalink: /:categories/:year/:month/:day/:title:output_ext
 
 pagination:
   enabled: true
