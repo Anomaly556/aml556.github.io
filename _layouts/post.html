@@ -1,42 +1,16 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        {% include head.html %}
-        <!-- {% include sw-script.html %} -->
-    </head>
-    <body>
-        <!-- Google Tag Manager (noscript) -->
-        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N74DC4S" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-        <!-- End Google Tag Manager (noscript) -->
-        <!-- partial:index.partial.html -->
-        <div class="container">
-            <header id="headdy">
-                <h1 id="webt"><a href="/" style="color: white; text-decoration: none;">Note Swiper</a></h1>
-                <span style="vertical-align: baseline; margin:0; padding:0;">Random thing will place here</span>
-                <nav id="menunav">
-                {% for links in site.data.main.website.menus %}
-                    <a href="{{ links.to }}" id="link-normal">{{ links.title }}</a>
-                {% endfor %}
-                </nav>
-            </header>
-            <hr>
-            <article id="artic">
-                <div class="textstringac">
-                    <h1>{{ page.title }}</h1>
-                    <p>Publish Date: {{ page.date }}</p>
-                    {{ content | toc }}
-                    <p>Categories: </p>
-                    <ul>
-                        {% for cats in page.categories %}
-                            <li>{{ cats }}</li>
-                        {% endfor %}
-                    </ul>
-                </div>
-            </article>
-            <footer id="foot"></footer>
-            </div>
-        <script src='https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/highlight.min.js'></script>
-        <script src='https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.11/clipboard.min.js'></script>
-        <script src='https://cdnjs.cloudflare.com/ajax/libs/tone/14.8.49/Tone.js'></script>
-    </body>
-</html>
+---
+layout: default
+title: blog
+---
+
+<span>{{ paginator.page }}</span>
+<h1>{{ page.title }}</h1>
+<p>Publish Date: {{ page.date }}</p>
+{{ content | toc }}
+<p>Categories: </p>
+<ul>
+    {% for cats in page.categories %}
+        <li>{{ cats }}</li>
+    {% endfor %}
+</ul>
+<hr />
