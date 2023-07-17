@@ -1,0 +1,14 @@
+---
+layout: none
+---
+{
+    "StatusType": [
+        {% for statusType in site.data.StatusType %}
+        {
+            "StatusCode": "{{ statusType.code | xml_escape}}",
+            "StatusId": "{{ statusType.id | xml_escape }}",
+            "StatusDescription": "{{ statusType.description | xml_escape }}"
+        }{% unless forloop.last %},{% endunless %}
+        {% endfor %}
+    ]
+}
