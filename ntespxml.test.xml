@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<data>
+    <host version="0.0.0.1" SchemaURL="https://noteswiper.github.io/ntespxml.*.*" />
+    <config>
+        <name>Master Data</name>
+        <id>master_data</id>
+    </config>
+    <content>
+        <dataset name="YouTube" get="/youtubeset/">
+            <channel name="Channel Name" handle="@channel.handle" url="https://www.youtube.com/channel/[YOUR OWN CHANNEL ID]">
+                <videos>
+                    <video name="Video Name" id="Video ID" searchtag="video,name" />
+                </videos>
+                <posts>
+                    <post postId="Post Id" />
+                </posts>
+                <lives>
+                    <live name="Live Name" id="Live ID" searchtag="live,name" />
+                </lives>
+            </channel>
+        </dataset>
+    </content>
+</data>
