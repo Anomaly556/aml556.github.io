@@ -5,9 +5,9 @@ layout: none
     "StatusType": [
         {% for statusType in site.data.StatusType %}
         {
-            "StatusCode": "{{ statusType.code | xml_escape}}",
-            "StatusId": "{{ statusType.id | xml_escape }}",
-            "StatusDescription": "{{ statusType.description | xml_escape }}"
+            "StatusCode": "{{ statusType.code | }}",
+            "StatusId": "{{ statusType.id |  }}",
+            "StatusDescription": "{{ statusType.description |  }}"
         }{% unless forloop.last %},{% endunless %}
         {% endfor %}
     ]
