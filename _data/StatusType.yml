@@ -6,7 +6,7 @@
   description: "Requested content has not found"
 - code: "002"
   id: "INVALID_TYPE"
-  description: "%s \"%s\" has invalid type"
+  description: "%s \\\"%s\\\" has invalid type"
 - code: "003"
   id: "NOT_FOUND"
   description: "Requested content has not found"
