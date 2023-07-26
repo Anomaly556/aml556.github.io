@@ -51,6 +51,11 @@ layout: default
     <span>Github: <a href="{{ item.url }}">{{ item.title }}</a></span><br>
         {% endfor %}
     {% endif %}
+    {% if social.tumblr %}
+        {%- for item in social.tumblr -%}
+    <span>Tumblr: <a href="{{ item.url }}">{{ item.title }}</a></span>
+        {%- endfor -%}
+    {% endif %}
     {% if social.orgs %}
         {% if social.orgs.created %}
             {% for item in social.orgs.created %}
