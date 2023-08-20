@@ -33,6 +33,7 @@ author:
   youtube: https://www.youtube.com/@noteswiper
 
 include: 
+  - _pics
   - _minecraft_screenshots
   - _core
   - core
