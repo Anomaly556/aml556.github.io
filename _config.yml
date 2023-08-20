@@ -179,9 +179,26 @@ defaults:
       type: asset_image
       type_ext: Images
   - scope:
-      path: "assets/minecraft_screenshots"
+      path: "assets/ss"
     values:
+      data_id: 'screenshots'
       image: true
+  - scope:
+      path: "assets/ss/minecraft/java"
+    values:
+      num_id: 0
+      data_type: 'minecraft'
+      exclude: ['*.md']
+      image: true
+      id: 'java'
+  - scope:
+      path: "assets/ss/minecraft/bedrock"
+    values:
+      num_id: 1
+      data_type: 'Image files'
+      exclude: ['*.md']
+      image: true
+      id: 'bedrock'
 
 webrick:
   headers:
