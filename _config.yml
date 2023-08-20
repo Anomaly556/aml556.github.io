@@ -179,14 +179,8 @@ defaults:
       type: asset_image
       type_ext: Images
   - scope:
-      path: "/assets/img/_minecraft_screenshots"
+      path: "/assets/img/minecraft_screenshots"
     values:
-      minecraft_image: true
-  - scope:
-      path: "/media"
-    values:
-      type: free_image
-      type_ext: Images
       image: true
 
 webrick:
