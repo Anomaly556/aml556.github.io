@@ -1,0 +1,1 @@
+{% for image in site.static_image %}

@@ -177,6 +177,12 @@ defaults:
     values:
       type: asset_image
       type_ext: Images
+  - scope:
+      path: "/media"
+    values:
+      type: free_image
+      type_ext: Images
+      image: true
 
 webrick:
   headers:
@@ -258,6 +264,8 @@ collections:
     output: true
   trInfo:
     sort_by: sortId
+    output: true
+  media:
     output: true
 
 limit_posts: 0
