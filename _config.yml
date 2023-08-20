@@ -267,6 +267,8 @@ collections:
     output: true
   media:
     output: true
+  minecraft_screenshots:
+    output: true
 
 limit_posts: 0
 

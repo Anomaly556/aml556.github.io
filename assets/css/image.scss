@@ -1,0 +1,31 @@
+---
+
+---
+#images {
+	.image-row {
+		.image-container {
+			img {
+				width: 270px;
+				height: 270px;
+				object-fit: cover;
+				background: rgba(0,0,0,0.2);
+				border-radius: 32px;
+			}
+			p {
+				font-weight: bolder;
+				color: white;
+				text-align: center;
+			}
+			display: flex;
+			flex-direction: column;
+			width: 270px;
+			margin: 8px;
+			background: rgba(0,0,0,0.3);
+			padding: 6px;
+			border-radius: 16px;
+		}
+		display: flex;
+		flex-direction: row;
+	}
+	display: grid;
+}
