@@ -28,7 +28,7 @@ layout: default
         {% for image in site.minecraft_screenshots.files %}
         <div class="image-container">
             <img class="image" src="{{ image.url }}" />
-            <p class="image-text">{{ image.}}</p>
+            <p class="image-text">{{ image.url }}</p>
         </div>
         {% endfor %}
     {% if image_count > max_images %}
