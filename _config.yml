@@ -179,7 +179,7 @@ defaults:
       type: asset_image
       type_ext: Images
   - scope:
-      path: "/assets/minecraft_screenshots"
+      path: "assets/minecraft_screenshots"
     values:
       image: true
 

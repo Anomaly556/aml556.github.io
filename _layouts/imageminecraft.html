@@ -8,12 +8,12 @@ layout: default
 {% assign max_images = 3 %}
 {% assign image_files = site.static_files | where: "image", true %}
 <div id="images">
-        {% for image in image_files %}
-        <div class="image-container">
-            <img class="image" src="{{ image.path | absolute_path }}" />
-            <p class="image-text">{{ image.basename }}</p>
-        </div>
-        {% endfor %}
+{% for file in image_files %}
+    <div class="image-container">
+        <img class="image" src="{{ file.path | absolute_path }}" />
+        <p class="image-text">{{ file.basename }}</p>
+    </div>
+{% endfor %}
 </div>
 <!--<div id="images">
 	<div class="image-row" id="img-row1">
