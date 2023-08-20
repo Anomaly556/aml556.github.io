@@ -5,6 +5,7 @@ layout: default
 {% assign total = 0 %}
 {% assign rows = 0 %}
 {% assign max_images = 3 %}
+{% assign image_files = site.static_files | where: "minecraft_image", true %}
 <!--<div id="images">
 	<div class="image-row" id="img-row1">
 		<div class="image-container" id="1-image1">
@@ -22,10 +23,10 @@ layout: default
 	</div>
 </div>-->
 <div id="images">
-        {% for image in site.minecraft_screenshots.files %}
+        {% for image in image_files %}
         <div class="image-container">
-            <img class="image" src="{{ image.url }}" />
-            <p class="image-text">{{ image.url }}</p>
+            <img class="image" src="{{ image.path }}" />
+            <p class="image-text">{{ image.basename }}</p>
         </div>
         {% endfor %}
 </div>
