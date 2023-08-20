@@ -9,10 +9,12 @@ layout: default
 {% assign image_files = site.static_files | where: "image", true %}
 <div id="images">
 {% for file in image_files %}
-    <div class="image-container">
+    <div class="image-container"><a href="{{ file.path | absolute_path }}">
         <img class="image" src="{{ file.path | absolute_path }}" />
         <p class="image-text">{{ file.basename }}</p>
-    </div>
+		<p class="image-mod">Modified Date: {{ file.modified_time }}</p>
+		<p class="image-crt">Image format type: {{ file.extname }}</p>
+    <</a>/div>
 {% endfor %}
 </div>
 <!--<div id="images">
