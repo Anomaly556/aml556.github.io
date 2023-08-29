@@ -20,5 +20,6 @@
 <meta name="theme-color" content="#9fe0b8">
 <meta name="msvalidate.01" content="5E852E6B1BA39707B3E389442F07DE2A" />
 <meta name="google-site-verification" content="deN82EYpJp_0rwKFg4HVCgkj8cT0tXmSg3gR19GuK5k" />
-{% include head-link.html %}
+{%- capture csstype -%}{{ include.csstype }}{%- endcapture -%}
+{% include head-link.html type=csstype %}
 {% include head-script.html %}
