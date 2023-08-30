@@ -76,10 +76,10 @@ end
 #     gem "jekyll-toc"
 # end
 
-gem "kramdown"
-gem "liquid"
-gem "nokogiri"
-gem "rouge"
+# gem "kramdown"
+# gem "liquid"
+# gem "nokogiri"
+# gem "rouge"
 
-gem "safe_yaml"
-gem "sass"
+# gem "safe_yaml"
+# gem "sass"
