@@ -55,3 +55,9 @@ if (lang) {
   let curhash = location.hash;
   location.href = current + getParam("lang");
 }
+
+let acceptor = document.getElementById('notif-accept');
+
+acceptor.addEventListener("click", () => {
+	let promise = Notification.requestPermission();
+})
