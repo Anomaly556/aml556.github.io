@@ -187,6 +187,24 @@ body {
 					margin: 0;
 				}
 			}
+			table {
+				border-radius: 9px;
+				caption {
+					text-align: center;
+				}
+				tbody {
+					tr {
+						th {
+							text-align: center;
+							border-radius: 4px;
+							margin: 2px;
+						}
+						td {
+							text-align: center;
+						}
+					}
+				}
+			}
 		}
 	}
 
@@ -216,4 +234,5 @@ body {
 		background: rgba(0, 0, 0, 0.4);
 		margin: 2px;
 	}
+	
 }

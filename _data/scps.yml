@@ -1,4 +1,27 @@
-- title: "SCP-001-JP - 機密解除待ち[アクセス禁止]"
+# - title_en: "SCP-001-JP - Awaiting De-classification [Blocked]"
+#   title_jp: "SCP-001-JP - 機密解除待ち[アクセス禁止]"
+#   optional_en: "this is test, but will be affected real."
+#   optional_jp: "これはテストですが、後に本格的に転載することがあります。"
+#   region: "jp"
+#   id: "001"
+#   url: 
+#     article: "./scp-001-jp/ja"
+#     original: "scp-001-jp"
+
+- title:
+    en: "SCP-132-JP - [Meta title Translation still not unlocked]"
+    jp: "SCP-132-JP - 染み入る"
+  creator: "locker"
   region: "jp"
-  id: "001"
-  url: "./scp-001-jp/ja"
+  id: "132"
+  url: 
+    article: 
+      link:
+        origin: "./scp-132-jp/ja"
+        ja: "./scp-132-jp/ja"
+        en: "./scp-132-jp/en"
+    original: 
+      origin_lang: "jp"
+      link: "scp-132-jp"
+      additional:
+        - scp-132-jp-animation

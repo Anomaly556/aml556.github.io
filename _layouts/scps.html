@@ -1,9 +1,41 @@
 ---
 layout: default
 ---
+{%- comment -%}
+item.region - Region of class where found; (SCP-XXXX->JP< OR SCP-XXXX->$$<)
+item.id - meaning of Item Number; (SCP->XXXX< OR SCP->XXXX<-JP)
+item.url.article - link of article in this website;
+item.url.original - link of original article;
+
+item.title_$$ - a meta title of article. the $$ is location id; (if item.title_en, that means original english article or translated to english article)
+item.optional_$$ - a published memo of article. the $$ is location id; (same with previous one, but not in original one)
+{%- endcomment -%}
+<h1>SCP-JP Article lists (this is non-priating purpose)</h1>
+
+<p>
+    this is a SCP-JP Article lists.<br />
+    for SCP Article lists, see <a href="/post/SCP/">This</a> page. (still not created)<br />
+    for SCP Article's own meta title, i use the original one only by multilingual reason.<br />
+    I do not own SCP Foundation or any SCP Articles.<br />
+    Some SCP Article belongs to original creator.<br />
+    For more info in below article, see <a href="https://scp-wiki.wikidot.com/">SCPF Wiki</a>.
+</p>
+<hr />
 
 <ul>
-    {% for item in site.data.scps %}
-    <li class="li-scp-indexes {{ "li-scp-%s-indexes" | replace: "%s", item.region }}" id="{{ "li-scpidx-%s1-%s2" | replace: "%s1", item.id | replace: "%s2", item.region }}"><a href="{{ item.url }}" class="hyp-scp-indexes {{ "hyp-scp-%s-indexes" | replace: "%s", item.region }}" id="{{ "hyp-scpidx-%s1-%s2" | replace: "%s1", item.id | replace: "%s2", item.region}}">{{ item.title }}</a></li>
+    {% assign sorteds = site.data.scps | sort: "id", "first" %}
+    {% for item in sorteds %}
+    <li class="li-scp-indexes {{ "li-scp-%s-indexes" | replace: "%s", item.region }}" id="{{ "li-scpidx-%s1-%s2" | replace: "%s1", item.id | replace: "%s2", item.region }}">
+        <a href="{{ item.url.article.link.origin }}" class="hyp-scp-indexes {{ "hyp-scp-%s-indexes" | replace: "%s", item.region }}" id="{{ "hyp-scpidx-%s1-%s2" | replace: "%s1", item.id | replace: "%s2", item.region}}">
+            {{ item.title.jp }}; 著作者: {{ item.creator | default: "不明" }}
+        </a>
+        <br />
+        <a href="{{ item.url.original.link | prepend: 'https://scp-jp.wikidot.com/' | default: "" }}" class="hyp-scp-indexes {{ "hyp-scp-%s-indexes" | replace: "%s", item.region }}">Original (If query Includes the real hl)</a>{% if item.url.original.additional %}
+        <br /><p>contains additional page: </p><br />{% for adt in item.url.original.additional %}
+        <a href="{{ adt | prepend: 'https://scp-jp.wikidot.com/' | default: "" }}">{{ adt }}; </a>
+        {% endfor %}{% endif %}{% if item.optional_en or item.optional_jp %}
+        <br />
+        <p>contains Comment: {{ item.optional_jp }}</p>{% endif %}
+    </li>
     {% endfor %}
 </ul>
