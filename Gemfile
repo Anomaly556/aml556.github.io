@@ -2,8 +2,8 @@
 # # marked `#gh` has listed on "https://pages.github.com/versions/"
 source "https://rubygems.org"
 
-gem "jekyll", group: :jekyll_plugins
-#gem "github-pages", group: :jekyll_plugins
+#gem "jekyll", group: :jekyll_plugins
+gem "github-pages", group: :jekyll_plugins
 
 platforms :mingw, :x64_mingw, :mswin, :jruby do
     gem "tzinfo", ">= 1", "< 3"
@@ -76,10 +76,10 @@ end
 #     gem "jekyll-toc"
 # end
 
-# gem "kramdown"
-# gem "liquid"
-# gem "nokogiri"
-# gem "rouge"
+gem "kramdown"
+gem "liquid"
+gem "nokogiri"
+gem "rouge"
 
-# gem "safe_yaml"
-# gem "sass"
+gem "safe_yaml"
+gem "sass"
