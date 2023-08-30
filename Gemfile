@@ -2,8 +2,8 @@
 # # marked `#gh` has listed on "https://pages.github.com/versions/"
 source "https://rubygems.org"
 
-gem "jekyll"
-#gem "github-pages", group: :jekyll_plugins
+#gem "jekyll"
+gem "github-pages", group: :jekyll_plugins
 
 platforms :mingw, :x64_mingw, :mswin, :jruby do
     gem "tzinfo", ">= 1", "< 3"
