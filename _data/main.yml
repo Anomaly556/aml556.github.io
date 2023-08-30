@@ -8,7 +8,7 @@ website:
   menus:
       - title: "Home"
         to: "/"
-      - title: "Post"
+      - title: "Posts"
         to: "/posts/"
       - title: "Information"
         to: "/info"
@@ -18,6 +18,10 @@ website:
         to: "/socials"
       - title: "Translated Contents"
         to: "/_pages/tr/"
+      - title: "Updates"
+        to: "/updates/"
+      - title: "Miscellaneous"
+        to: "/misc/"
   socials:
     def:
       title: "Default"

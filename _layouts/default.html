@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 {% include comments.html %}
-<html lang="{{ site.lang }}" dir="ltr" spellcheck="true">
+<html lang="{{ page.lang | default: site.lang }}" dir="ltr" spellcheck="true">
     <head>
         <!-- {% include sw-script.html %} -->
         {% include head.html %}
@@ -14,6 +14,7 @@
             <header id="headdy">
                 <h1 id="webt"><a href="/" style="color: white; text-decoration: none;">Note Swiper</a></h1>
                 <span style="vertical-align: baseline; margin:0; padding:0;">Random thing will place here</span>
+                <span class="header-motd" id="header-motd">if this text shown, there is error in processing</span>
                 <nav id="menunav">
                 {% for links in site.data.main.website.menus %}
                     <a href="{{ links.to }}" id="link-normal">{{ links.title }}</a>

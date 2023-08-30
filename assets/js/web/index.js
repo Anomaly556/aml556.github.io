@@ -29,6 +29,15 @@ var lang = getParam("lang");
 var prev;
 var from = getParam("from");
 
+let motd = [
+  "the website has made on Dec, 2021",
+  "see \"Updates\" to get Updates",
+  "All projects in NoteSwiper is only made by me",
+  "see \"Miscellaneous\"..."
+];
+
+let motd_text = document.getElementById('header-motd');
+
 if (from) {
     prev = from;
 }

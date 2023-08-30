@@ -1,0 +1,28 @@
+---
+layout: default
+---
+
+<h1>Miscellaneous Contents</h1>
+
+<table>
+    <caption>List of miscellaneous contents</caption>
+    <colgroup span="5"></colgroup>
+    <tbody>
+        <tr>
+            <th>ID</th>
+            <th>Content/Folder/Identified Name</th>
+            <th>URL</th>
+            <th>Source Code (If exists)</th>
+            <th>Optional Info</th>
+        </tr>
+        {% for item in site.data.miscs %}
+        <tr>
+            <th scope="row">{{ item.id }}</th>
+            <td>{{ item.name }}</td>
+            <td><a href="{{ item.url | prepend: 'https://noteswiper.github.io' }}">{{ item.url }}</a></td>
+            <td><a href="{{ item.src | prepend: 'https://github.com/NoteSwiper/noteswiper.github.io/blob/main/' | default: 'https://github.com/NoteSwiper/noteswiper.github.io' }}">{{ item.src | default: "https://github.com/NoteSwiper/noteswiper.github.io" }}</a></td>
+            <td>{{ item.optional | default: "No optional data described" }}</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
