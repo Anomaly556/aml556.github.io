@@ -15,10 +15,10 @@ gem "webrick", "~> 1.7"
 
 gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]
 
- gem "sprockets"
- gem "uglifier"
+# gem "sprockets"
+# gem "uglifier"
 # gem "jekyll"
- gem "html-pipeline"
+# gem "html-pipeline"
  gem "faraday-retry"
 
 group :jekyll_plugins do
@@ -28,7 +28,7 @@ group :jekyll_plugins do
 #     gem "classifier-reborn"
     gem "jekyll-avatar"
     gem "jekyll-coffeescript"
-    gem "jekyll-commonmark-ghpages"
+#    gem "jekyll-commonmark-ghpages"
     gem "jekyll-default-layout"
     gem "jekyll-gist"
     gem "jekyll-github-metadata"
@@ -38,13 +38,13 @@ group :jekyll_plugins do
     gem "jekyll-paginate"
     gem "jekyll-readme-index"
     gem "jekyll-redirect-from"
-    gem "jekyll-remote-theme"
+#   gem "jekyll-remote-theme"
     gem "jekyll-sass-converter"
     gem "jekyll-seo-tag"
     gem "jekyll-titles-from-headings"
     gem "jekyll-relative-links"
     gem "jekyll-tagging"
-    gem "jekyll_image_encode"
+#    gem "jekyll_image_encode"
     gem "jemoji"
     gem "jekyll-sitemap"
 #     gem "jekyll-toc"
@@ -75,7 +75,7 @@ end
 #     gem "jekyll-toc"
 # end
 
-# gem "kramdown"
+gem "kramdown"
 gem "liquid"
 gem "nokogiri"
 gem "rouge"
