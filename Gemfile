@@ -2,8 +2,8 @@
 # # marked `#gh` has listed on "https://pages.github.com/versions/"
 source "https://rubygems.org"
 
-gem "jekyll", "~> 4.3.2", group: :jekyll_plugins
-gem "github-pages", group: :jekyll_plugins
+gem "jekyll"
+#gem "github-pages", group: :jekyll_plugins
 
 platforms :mingw, :x64_mingw, :mswin, :jruby do
     gem "tzinfo", ">= 1", "< 3"
@@ -15,7 +15,6 @@ gem "webrick", "~> 1.7"
 
 gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]
 
- gem "ruby"
  gem "sprockets"
  gem "uglifier"
 # gem "jekyll"
@@ -76,7 +75,7 @@ end
 #     gem "jekyll-toc"
 # end
 
-gem "kramdown"
+# gem "kramdown"
 gem "liquid"
 gem "nokogiri"
 gem "rouge"
