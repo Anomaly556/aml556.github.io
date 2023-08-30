@@ -1,0 +1,9 @@
+---
+layout: default
+---
+
+<ul>
+    {% for item in site.data.scps %}
+    <li class="li-scp-indexes {{ "li-scp-%s-indexes" | replace: "%s", page.region }}" id="{{ "li-scpidx-%s1-%s2" }}"><a href=".../chooser/?type=SCP&tfrom=JP&lang=ja&itemId=0001" class="hyp-scp-indexes hyp-scp-jp-indexes" id="hyp-scpidx-0001">SCP-001-JP - 機密解除待ち[アクセス禁止]</a></li>
+    {% endfor %}
+</ul>
