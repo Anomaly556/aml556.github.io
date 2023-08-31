@@ -48,3 +48,6 @@
   url: "/site_properties"
 - name: "socials.md"
   url: "/socials"
+- name: "/storage"
+  url: "/storage/?url=./f/scp-132-jp-animation_archive.html"
+  optional: "CONTAINS \"SCP-132-JP Animation [Archived]\" file"
