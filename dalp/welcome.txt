@@ -1,0 +1,4 @@
+Please put the `url` query in URL to work.
+
+USAGES:
+ - "https://noteswiper.github.io/storage/?url=https://example.com&width=1080&height=720"
