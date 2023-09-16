@@ -1,0 +1,38 @@
+---
+layout: default
+---
+
+<h1>All Radio Signals</h1>
+
+<table>
+    <caption>List of Radio Signals</caption>
+    <colgroup span="10"></colgroup>
+    <tbody>
+        <tr>
+            <th>Identified ENIGMA ID</th>
+            <th>Status</th>
+            <th>Identified Name / Community Known Name</th>
+            <th>Frequencies</th>
+            <th>Sent Countries</th>
+            <th>Ranges</th>
+            <th>Mode</th>
+            <th>Info</th>
+            <th>Revealed location Coordinates</th>
+            <th>Revealed GPS Coordinates</th>
+        </tr>
+        {% assign radioitems = site.data.radiosigs | sort: "freq" %}
+        {% for item in radioitems %}
+        <tr>
+            <th scope="row">{{ item.enigma | default: "Not Identified" }}</th>
+            <td>{{ item.status | default: "Unknown" }}</td>
+            <td>{{ item.name | default: "No known name checked" }}</td>
+            <td>{{ item.freq | default: "Not Identified" }}</td>
+            <td>{{ item.from | default: "Not Identified" }}</td>
+            <td>{{ item.range | default: "Not Identified" }}</td>
+            <td>{{ item.optional | default: "No optional data described" }}</td>
+            <td>{{ item.gm_url | default: "Not revealed or linked data" }}</th>
+            <td>{{ item.gps | default: "Not revealed" }}</th>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
