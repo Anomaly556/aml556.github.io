@@ -200,6 +200,14 @@ defaults:
       exclude: ['*.md']
       image: true
       id: 'bedrock'
+  - scope:
+      path: "assets/ss/roblox"
+    values:
+      num_id: 2
+      data_type: 'roblox'
+      exclude: ['*.md']
+      image: true
+      id: 'roblox'
 
 webrick:
   headers:

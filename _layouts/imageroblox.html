@@ -1,0 +1,38 @@
+---
+layout: default
+---
+{{ content }}
+<p>below is list of <code>Images</code>.</p>
+<hr />
+{% assign image_count = 0 %}
+{% assign total = 0 %}
+{% assign rows = 0 %}
+{% assign max_images = 3 %}
+{% assign image_files = site.static_files | where: "num_id", 2 | where: "image", true %}
+<div id="images">
+{% for file in image_files %}
+    <div class="image-container"><a href="{{ file.path | absolute_path }}">
+        <img loading="lazy" class="imagecode image" src="{{ file.path | absolute_path }}" alt="{{ file.path | absolute_path }}" title="{{ file.path }}"/>
+        <p class="image-text">{{ file.basename }}</p>
+		<p class="image-mod">Modified Date: {{ file.modified_time }}</p>
+		<p class="image-crt">Image format type: {{ file.extname }}</p>
+    </a></div>
+{% endfor %}
+</div>
+<!--<div id="images">
+	<div class="image-row" id="img-row1">
+		<div class="image-container" id="1-image1">
+			<img class="image" id="1-image1-img" src="https://noteswiper.github.io/media/minecraft_screenshots/2023-08-16_19.54.08.png" alt="" />
+			<p class="image-text" id="1-image1-text">2023-08-16_19.54.08.png</p>
+		</div>
+		<div class="image-container" id="1-image2">
+			<img class="image" id="1-image2-img" src="https://noteswiper.github.io/media/minecraft_screenshots/2023-08-16_22.35.54.png" alt="" />
+			<p class="image-text" id="1-image2-text">2023-08-16_22.35.54.png</p>
+		</div>
+		<div class="image-container" id="1-image3">
+			<img class="image" id="1-image3-img" src="https://noteswiper.github.io/media/minecraft_screenshots/2023-08-19_22.22.06.png" alt="" />
+			<p class="image-text" id="1-image3-text">2023-08-16_22.35.54.png</p>
+		</div>
+	</div>
+</div>-->
+<script src="/assets/js/imgerror.js"></script>
