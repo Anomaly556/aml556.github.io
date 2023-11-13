@@ -43,119 +43,119 @@ layout: default
     <span>YouTube: <a href="{{ item.url }}">{{ item.title }}</a></span><br>
         {%- endfor -%}
     {% else %}
-    <span>YouTube: No YouTube in this account :(</span>
+    <span>YouTube: No YouTube in this account :(</span><br>
     {% endif %}
     {% if social.website %}
         {%- for item in social.website -%}
     <span>Website: <a href="{{ item.url }}">{{ item.title }}</a></span><br>
         {%- endfor -%}
     {% else %}
-    <span>Website: No website in this account :(</span>
+    <span>Website: No website in this account :(</span><br>
     {% endif %}
     {% if social.twitter %}
         {%- for item in social.twitter -%}
     <span>X (formerly Twitter): <a href="{{ item.url }}">{{ item.title }}</a></span><br>
         {%- endfor -%}
     {% else %}
-    <span>X (formerly Twitter): No X (formerly Twitter) in this account :(</span>
+    <span>X (formerly Twitter): No X (formerly Twitter) in this account :(</span><br>
     {% endif %}
     {% if social.github %}
         {%- for item in social.github -%}
     <span>GitHub: <a href="{{ item.url }}">{{ item.title }}</a></span><br>
         {% endfor %}
     {% else %}
-    <span>GitHub: No GitHub in this account :(</span>
+    <span>GitHub: No GitHub in this account :(</span><br>
     {% endif %}
     {% if social.roblox %}
         {%- for item in social.roblox -%}
     <span>Roblox: <a href="{{ item.url }}">{{ item.title }}</a></span><br>
         {% endfor %}
     {% else %}
-    <span>Roblox: No Roblox in this account :(</span>
+    <span>Roblox: No Roblox in this account :(</span><br>
     {% endif %}
     {% if social.twitch %}
         {%- for item in social.twitch -%}
     <span>Twitch: <a href="{{ item.url }}">{{ item.title }}</a></span><br>
         {% endfor %}
     {% else %}
-    <span>Twitch: No Twitch in this account :(</span>
+    <span>Twitch: No Twitch in this account :(</span><br>
     {% endif %}
     {% if social.blog %}
         {%- for item in social.blog -%}
     <span>Blog: <a href="{{ item.url }}">{{ item.title }}</a></span><br>
         {% endfor %}
     {% else %}
-    <span>Blog: No blog website in this account :(</span>
+    <span>Blog: No blog website in this account :(</span><br>
     {% endif %}
     {% if social.tumblr %}
         {%- for item in social.tumblr -%}
     <span>Tumblr: <a href="{{ item.url }}">{{ item.title }}</a></span>
         {%- endfor -%}
     {% else %}
-    <span>Tumblr: No Tumblr in this account :(</span>
+    <span>Tumblr: No Tumblr in this account :(</span><br>
     {% endif %}
     {% if social.gitlab %}
         {% for item in social.gitlab %}
     <span>GitLab: <a href="{{ item.url }}">{{ item.title }}</a></span>
         {% endfor %}
     {% else %}
-    <span>GitLab: No GitLab in this account :(</span>
+    <span>GitLab: No GitLab in this account :(</span><br>
     {% endif %}
     {% if social.bitbucket %}
         {% for item in social.bitbucket %}
     <span>BitBucket: <a href="{{ item.url }}">{{ item.title }}</a></span>
         {% endfor %}
     {% else %}
-    <span>BitBucket: No BitBucket in this account :(</span>
+    <span>BitBucket: No BitBucket in this account :(</span><br>
     {% endif %}
     {% if social.brickhill %}
         {% for item in social.brickhill %}
     <span>Brick Hill: <a href="{{ item.url }}">{{ item.title }}</a></span>
         {% endfor %}
     {% else %}
-    <span>Brick Hill: No Brick Hill in this account :(</span>
+    <span>Brick Hill: No Brick Hill in this account :(</span><br>
     {% endif %}
     {% if social.brickplanet %}
         {% for item in social.brickplanet %}
     <span>Brick Planet: <a href="{{ item.url }}">{{ item.title }}</a></span>
         {% endfor %}
     {% else %}
-    <span>Brick Planet: No Brick Planet in this account :(</span>
+    <span>Brick Planet: No Brick Planet in this account :(</span><br>
     {% endif %}
     {% if social.discord %}
         {% for item in social.discord %}
     <span>Discord: <a href="{{ item.url }}">{{ item.title }}</a></span>
         {% endfor %}
     {% else %}
-    <span>Discord: No Discord in this account :(</span>
+    <span>Discord: No Discord in this account :(</span><br>
     {% endif %}
     {% if social.scratch %}
         {% for item in social.scratch %}
     <span>Scratch: <a href="{{ item.url }}">{{ item.title }}</a></span>
         {% endfor %}
     {% else %}
-    <span>Scratch: No Scratch in this account :(</span>
+    <span>Scratch: No Scratch in this account :(</span><br>
     {% endif %}
     {% if social.reddit %}
         {% for item in social.reddit %}
     <span>Reddit: <a href="{{ item.url }}">{{ item.title }}</a></span>
         {% endfor %}
     {% else %}
-    <span>Reddit: No Reddit in this account :(</span>
+    <span>Reddit: No Reddit in this account :(</span><br>
     {% endif %}
     {% if social.soundcloud %}
         {% for item in social.soundcloud %}
     <span>SoundCloud: <a href="{{ item.url }}">{{ item.title }}</a></span>
         {% endfor %}
     {% else %}
-    <span>SoundCloud: No SoundCloud in this account :(</span>
+    <span>SoundCloud: No SoundCloud in this account :(</span><br>
     {% endif %}
     {% if social.steam %}
         {% for item in social.steam %}
     <span>Steam: <a href="{{ item.url }}">{{ item.title }}</a></span>
         {% endfor %}
     {% else %}
-    <span>Steam: No Steam in this account :(</span>
+    <span>Steam: No Steam in this account :(</span><br>
     {% endif %}
     {% if social.orgs %}
         {% if social.orgs.created %}
@@ -180,14 +180,14 @@ layout: default
     <span>DeviantArt: <a href="{{ item.url }}">{{ item.title }}</a></span><br>
         {% endfor %}
     {% else %}
-    <span>DeviantArt: No DeviantArt in this account :( (Only NSFW Account)</span>
+    <span>DeviantArt: No DeviantArt in this account :( (Only NSFW Account)</span><br>
     {% endif %}
     {% if social.tiktok %}
         {% for item in social.tiktok %}
     <span>TikTok: <a href="{{ item.url }}">{{ item.title }}</a>
         {% endfor %}
     {% else %}
-    <span>TikTok: No tiktok in this account :(</span>
+    <span>TikTok: No tiktok in this account :(</span><br>
     {% endif %}
 </div>
 {% endfor %}
