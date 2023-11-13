@@ -1,199 +1,263 @@
-- title: "NoteSwiper"
-  type: 0
-  youtube: 
-    - title: "[Note Swiper] :)"
-      url: "https://www.youtube.com/@Note.Swiper"
-    - title: "someone's Thing"
-      url: "https://www.youtube.com/@someonesArt"
-  website:
-    - title: "Home Page"
-      url: "https://noteswiper.github.io"
-  twitter: 
-    - title: "Note Swiper"
-      url: "https://twitter.com/NoteSwiper"
-    - title: "alone_Forever"
-      url: "https://twitter.com/AlphabetLoreFAZ"
-    - title: "bboUser"
-      url: "https://twitter.com/youK197_YT"
-  github:
-    - title: "NoteSwiper"
-      url: "https://github.com/NoteSwiper"
-  roblox:
-    - title: "youK197_YT"
-      url: "https://user.rblx.name/youK197_YT"
-    - title: "tohfgugftfyhytr"
-      url: "https://user.rblx.name/NotKnownUser"
-  twitch: 
-    - title: "anyone556a"
-      url: "https://twitch.tv/anyone556a/home"
-  blog:
-    - title: "AML556 Plugged"
-      url: "https://aml556plugged.blogstation.jp"
-    - title: "plgr"
-      url: "https://plgr.hateblo.jp"
-  tumblr:
-    - title: "Note Swiper's Repost / Post bin"
-      url: "https://noteswiper-rebin.tumblr.com/"
+updated: "11/13/2023"
+links:
+  - title: "NoteSwiper"
+    type: 0
+    account_date: "06/19/2018"
+    addition_date: "UNKNOWN sorry"
+    updated_date: "11/13/2023"
+    youtube: 
+      - title: "[Note Swiper] :)"
+        url: "https://www.youtube.com/@Note.Swiper"
+      - title: "someone's Thing"
+        url: "https://www.youtube.com/@someonesArt"
+    website:
+      - title: "Home Page"
+        url: "https://noteswiper.github.io"
+    twitter: 
+      - title: "Note Swiper"
+        url: "https://twitter.com/NoteSwiper"
+      - title: "alone_Forever"
+        url: "https://twitter.com/AlphabetLoreFAZ"
+      - title: "bboUser"
+        url: "https://twitter.com/youK197_YT"
+    github:
+      - title: "NoteSwiper"
+        url: "https://github.com/NoteSwiper"
+    roblox:
+      - title: "youK197_YT"
+        url: "https://user.rblx.name/youK197_YT"
+      - title: "tohfgugftfyhytr"
+        url: "https://user.rblx.name/NotKnownUser"
+    twitch: 
+      - title: "anyone556a"
+        url: "https://twitch.tv/anyone556a/home"
+    blog:
+      - title: "AML556 Plugged"
+        url: "https://aml556plugged.blogstation.jp"
+      - title: "plgr"
+        url: "https://plgr.hateblo.jp"
+    tumblr:
+      - title: "Note Swiper's Repost / Post bin"
+        url: "https://noteswiper-rebin.tumblr.com/"
 
-- title: "script1000"
-  type: 0
-  website:
-    - title: "Home Page"
-      url: "https://script1000.github.io"
-  twitter: 
-    - title: "script1000"
-      url: "https://twitter.com/script1000git"
-  github: 
-    - title: "script1000"
-      url: "https://github.com/script1000"
-  youtube:
-    - title: "script1000"
-      url: "https://www.youtube.com/@script-pg5xz"
-  orgs:
-    created:
-      - title: "test-temporaryOrganizations"
-        github: "https://github.com/test-temporaryOrganizations"
-    joining:
-      - title: "trslim"
-        website: "https://trslim.github.io"
-        github: "https://github.com/trslim"
+  - title: "script1000"
+    type: 0
+    account_date: ""
+    addition_date: ""
+    updated_date: "11/13/2023"
+    website:
+      - title: "Home Page"
+        url: "https://script1000.github.io"
+    twitter: 
+      - title: "script1000"
+        url: "https://twitter.com/script1000git"
+    github: 
+      - title: "script1000"
+        url: "https://github.com/script1000"
+    youtube:
+      - title: "script1000"
+        url: "https://www.youtube.com/@script-pg5xz"
+    orgs:
+      created:
+        - title: "test-temporaryOrganizations"
+          github: "https://github.com/test-temporaryOrganizations"
+      joining:
+        - title: "trslim"
+          website: "https://trslim.github.io"
+          github: "https://github.com/trslim"
 
-- title: "TermSlime"
-  type: 0
-  youtube: 
-    - title: "termSlime-jar"
-      url: "https://www.youtube.com/@termSlimeMC_YT"
-    - title: "term2Slime"
-      url: "https://www.youtube.com/@termSlime2"
-  website:
-    - title: "home page"
-      url: "https://termslime.github.io"
-  github:
-    - title: "termSlime"
-      url: "https://github.com/termSlime"
-  orgs:
-    created:
-      one:
-        title: "trSlim"
-        website: "https://trslim.github.io"
+  - title: "TermSlime"
+    type: 0
+    account_date: ""
+    addition_date: ""
+    updated_date: "11/13/2023"
+    youtube: 
+      - title: "termSlime-jar"
+        url: "https://www.youtube.com/@termSlimeMC_YT"
+      - title: "term2Slime"
+        url: "https://www.youtube.com/@termSlime2"
+    website:
+      - title: "home page"
+        url: "https://termslime.github.io"
+    github:
+      - title: "termSlime"
+        url: "https://github.com/termSlime"
+    orgs:
+      created:
+        one:
+          title: "trSlim"
+          website: "https://trslim.github.io"
 
-- title: "0micro"
-  type: 0
-  website:
-    - title: "home page"
-      url: "https://0micro.github.io"
-  github:
-    - title: "0micro"
-      url: "https://github.com/0micro"
+  - title: "0micro"
+    type: 0
+    account_date: ""
+    addition_date: ""
+    updated_date: "11/13/2023"
+    website:
+      - title: "home page"
+        url: "https://0micro.github.io"
+    github:
+      - title: "0micro"
+        url: "https://github.com/0micro"
 
-- title: "EnchantedSii"
-  type: 0
-  youtube:
-    - title: "エンチャントされたしぃ"
-      url: "https://www.youtube.com/@user-wi6lo8xu7p"
-  twitter:
-    - title: "名無し"
-      url: "https://twitter.com/asciiarchiver"
-  github:
-    - title: "EnchantedSii"
-      url: "https://github.com/EnchantedSii"
+  - title: "EnchantedSii"
+    type: 0
+    account_date: ""
+    addition_date: ""
+    updated_date: "11/13/2023"
+    youtube:
+      - title: "エンチャントされたしぃ"
+        url: "https://www.youtube.com/@user-wi6lo8xu7p"
+    twitter:
+      - title: "名無し"
+        url: "https://twitter.com/asciiarchiver"
+    github:
+      - title: "EnchantedSii"
+        url: "https://github.com/EnchantedSii"
 
-- title: "RblxLuauDevCode"
-  type: 0
-  youtube: 
-    - title: "RblxLuauDevCode"
-      url: "https://www.youtube.com/@rblxluaudevcode5750"
-  github: 
-    - title: "RblxLuauDevCode"
-      url: "https://github.com/RblxLuauDevCode"
-  website:
-    - title: "Home Page"
-      url: "https://rblxluaudevcode.github.io"
+  - title: "RblxLuauDevCode"
+    type: 0
+    account_date: ""
+    addition_date: ""
+    updated_date: "11/13/2023"
+    youtube: 
+      - title: "RblxLuauDevCode"
+        url: "https://www.youtube.com/@rblxluaudevcode5750"
+    github: 
+      - title: "RblxLuauDevCode"
+        url: "https://github.com/RblxLuauDevCode"
+    website:
+      - title: "Home Page"
+        url: "https://rblxluaudevcode.github.io"
 
-- title: "ppgHuman"
-  type: 0
-  youtube: 
-    - title: "ppgHuman"
-      url: "https://www.youtube.com/@ppgHuman"
-  github:
-    - title: "ppgHuman"
-      url: "https://github.com/ppgHuman"
+  - title: "ppgHuman"
+    type: 0
+    account_date: ""
+    addition_date: ""
+    updated_date: "11/13/2023"
+    youtube: 
+      - title: "ppgHuman"
+        url: "https://www.youtube.com/@ppgHuman"
+    github:
+      - title: "ppgHuman"
+        url: "https://github.com/ppgHuman"
 
-- title: "easy311 / modifiedSquid"
-  type: 1
-  youtube: 
-    - title: "easy311 / modifiedSquid"
-      url: "https://www.youtube.com/@easy311"
+  - title: "easy311 / modifiedSquid"
+    type: 1
+    account_date: ""
+    addition_date: ""
+    updated_date: "11/13/2023"
+    youtube: 
+      - title: "easy311 / modifiedSquid"
+        url: "https://www.youtube.com/@easy311"
 
-- title: "SCP-132-JP 紙魚入る"
-  type: 1
-  youtube: 
-    - title: "SCP-132-JP 紙魚入る"
-      url: "https://www.youtube.com/@scp132jp"
-  meta:
-    categories: ["fiction","scp","scp-jp","japanese"]
-    note: "name of channel is from SCP JP Wiki. i'm not a creator and we don't claims their creations. creation by locker"
+  - title: "SCP-132-JP 紙魚入る"
+    type: 1
+    account_date: ""
+    addition_date: ""
+    updated_date: "11/13/2023"
+    youtube: 
+      - title: "SCP-132-JP 紙魚入る"
+        url: "https://www.youtube.com/@scp132jp"
+    meta:
+      categories: ["fiction","scp","scp-jp","japanese"]
+      note: "name of channel is from SCP JP Wiki. i'm not a creator and we don't claims their creations. creation by locker"
 
-- title: "TheNoobyGaming"
-  type: 2
-  youtube: 
-    - title: "TheNoobyGaming"
-      url: "https://www.youtube.com/@thenoobyrblx"
-    - title: "SubNooby"
-      url: "https://www.youtube.com/@subnooby"
-  twitter:
-    - title: "TheNoobyRBLX"
-      url: "https://twitter.com/TheNoobyRBLX"
-  roblox:
-    - title: "A_Millionofc"
-      url: "https://user.rblx.name/a_millionofc"
-    - title: "TheSubNooby"
-      url: "https://user.rblx.name/TheSubNooby"
+  - title: "TheNoobyGaming"
+    type: 2
+    account_date: ""
+    addition_date: ""
+    updated_date: "11/13/2023"
+    youtube: 
+      - title: "TheNoobyGaming"
+        url: "https://www.youtube.com/@thenoobyrblx"
+      - title: "SubNooby"
+        url: "https://www.youtube.com/@subnooby"
+    twitter:
+      - title: "TheNoobyRBLX"
+        url: "https://twitter.com/TheNoobyRBLX"
+    roblox:
+      - title: "A_Millionofc"
+        url: "https://user.rblx.name/a_millionofc"
+      - title: "TheSubNooby"
+        url: "https://user.rblx.name/TheSubNooby"
 
-- title: "F The Alphabet Lore Villain Letter"
-  type: 1
-  youtube: 
-    - title: "F The Alphabet Lore Villain Letter"
-      url: "https://www.youtube.com/@eeaaaf"
+  - title: "F The Alphabet Lore Villain Letter"
+    type: 1
+    account_date: ""
+    addition_date: ""
+    updated_date: "11/13/2023"
+    youtube: 
+      - title: "F The Alphabet Lore Villain Letter"
+        url: "https://www.youtube.com/@eeaaaf"
 
-- title: "ragdoll_extend"
-  type: 1
-  youtube: 
-    - title: "ragdoll_extend"
-      url: "https://www.youtube.com/@ragdoll_extend"
+  - title: "ragdoll_extend"
+    type: 1
+    account_date: ""
+    addition_date: ""
+    updated_date: "11/13/2023"
+    youtube: 
+      - title: "ragdoll_extend"
+        url: "https://www.youtube.com/@ragdoll_extend"
 
-- title: "TheCorruptedCube"
-  type: 1
-  youtube:
-    - title: "TheCorruptedCube"
-      url: "https://www.youtube.com/@thecorruptedcube8226"
+  - title: "TheCorruptedCube"
+    type: 1
+    account_date: ""
+    addition_date: ""
+    updated_date: "11/13/2023"
+    youtube:
+      - title: "TheCorruptedCube"
+        url: "https://www.youtube.com/@thecorruptedcube8226"
 
-- title: "intel NoobCPU"
-  type: 1
-  youtube: 
-    - title: "intel NoobCPU"
-      url: "https://www.youtube.com/@intelnoobcpu9792"
-  roblox:
-    - title: "contentIntelNoob"
-      url: "https://user.rblx.name/contentIntelNoob"
+  - title: "intel NoobCPU"
+    type: 1
+    account_date: ""
+    addition_date: ""
+    updated_date: "11/13/2023"
+    youtube: 
+      - title: "intel NoobCPU"
+        url: "https://www.youtube.com/@intelnoobcpu9792"
+    roblox:
+      - title: "contentIntelNoob"
+        url: "https://user.rblx.name/contentIntelNoob"
 
-- title: "Partyenjoyer"
-  type: 1
-  youtube: 
-    - title: "Partyenjoyer"
-      url: "https://www.youtube.com/@partyenjoyer1358"
+  - title: "Partyenjoyer"
+    type: 1
+    account_date: ""
+    addition_date: ""
+    updated_date: "11/13/2023"
+    youtube: 
+      - title: "Partyenjoyer"
+        url: "https://www.youtube.com/@partyenjoyer1358"
 
-- title: "Roblox Inflation videos"
-  type: 3
-  youtube: 
-    - title: "Roblox Inflation videos"
-      url: "https://www.youtube.com/@robloxinflationvideos3210"
+  - title: "Roblox Inflation videos"
+    type: 3
+    account_date: ""
+    addition_date: ""
+    updated_date: "11/13/2023"
+    youtube: 
+      - title: "Roblox Inflation videos"
+        url: "https://www.youtube.com/@robloxinflationvideos3210"
 
-- title: "inf latem"
-  type: 3
-  youtube: 
-    - title: "inflatem"
-      url: "https://www.youtube.com/@inflatem"
-  deviantart: 
-    - title: "inflatem"
-      url: "https://devintart.com/inflatem"
+  - title: "inf latem"
+    type: 3
+    account_date: ""
+    addition_date: ""
+    updated_date: "11/13/2023"
+    youtube: 
+      - title: "inflatem"
+        url: "https://www.youtube.com/@inflatem"
+    deviantart: 
+      - title: "inflatem"
+        url: "https://devintart.com/inflatem"
+  - title: "Boeing 787 the plen✈(formerly That Boeing 787)"
+    type: 0
+    account_date: "11/05/2023"
+    addition_date: "11/13/2023"
+    updated_date: "11/13/2023"
+    youtube:
+      - title: "That Boeing 787"
+        url: "https://www.youtube.com/@Boeing.787"
+    tiktok:
+      - title: "Boeing 787 the plen✈"
+        url: "https://www.tiktok.com/@an_Boeing.787"
