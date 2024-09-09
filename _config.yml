@@ -257,7 +257,7 @@ imgix:
 
 jekyll_analytics:
   GoogleAnalytics:
-    id:
+    id: "G-Y8C2VKMDTE"
     anonymizeIp: false
 
 jekyll-mentions:
